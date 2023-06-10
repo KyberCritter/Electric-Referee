@@ -47,8 +47,11 @@ def generate_world(numLocations: int = 0, numCharacters: int = 0) -> campaign.Wo
 
     Returns:
         campaign_classes.World: The generated world.
+        numLocations (int, optional): The number of locations to generate. Defaults to 0.
+        numCharacters (int, optional): The number of characters to generate. Defaults to 0.
     """
-    # world = campaign_classes.World("Generated World", "A world generated using the OpenAI API.")
+
+    # TODO: relationships and items
 
     # sanity checks to prevent excessive API calls
     if(numLocations < 0):
