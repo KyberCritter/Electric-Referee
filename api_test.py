@@ -7,10 +7,13 @@ import datetime
 import tiktoken
 import campaign
 import json
+import random
 
 # global constants for sanity checking
 MAX_LOCATIONS = 10
 MAX_CHARACTERS = 10
+# global constants for World generation
+RELATIONSHIP_PROBABILITY = 0.3
 
 def create_and_log(completion: openai.ChatCompletion) -> None:
     """Accepts a ChatCompletion object and logs it to a file.
@@ -19,9 +22,9 @@ def create_and_log(completion: openai.ChatCompletion) -> None:
         completion (openai.ChatCompletion): AI response to a user message.
     """
     time = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    with open("./log/" + time + "-completion.txt", "w") as f:
+    with open("./log/" + time + "-completion.json", "w") as f:
         f.write(str(completion))
-    # with open("./log/" + time + "-message.txt", "w") as f:
+    # with open("./log/" + time + "-message.json", "w") as f:
     #     f.write(str(completion.choices[0].message))
 
 def estimate_cost(prompt: str, modelName: str, returnType: type = float) -> float or str:
@@ -67,8 +70,11 @@ def generate_world(numLocations: int = 0, numCharacters: int = 0) -> campaign.Wo
         {"role": "user", "content": "Generate a world for a 5e campaign."},
         {"role": "system", "content": "Create your reply in the format: { \"name\": \"World Name\", \"description\": \"World Description\" }"},
     ]
-    reply = openai.ChatCompletion.create(model=model, messages=world_prompt, temperature=1.3, max_tokens=200)
+    reply = openai.ChatCompletion.create(model=model, messages=world_prompt, temperature=1.3, max_tokens=500)
     create_and_log(reply)
+    if(reply.choices[0].finish_reason == "length"):
+        raise ValueError("World generation failed due to length. Try again.")
+        # TODO: append }" to reply.choices[0].message.content
     # print("JSON World:\n" + reply.choices[0].message.content)   # debug
     world = json.loads(reply.choices[0].message.content, cls=campaign.WorldDecoder)
 
@@ -83,6 +89,9 @@ def generate_world(numLocations: int = 0, numCharacters: int = 0) -> campaign.Wo
         reply = openai.ChatCompletion.create(model=model, messages=all_messages, temperature=1.3, max_tokens=200)
         create_and_log(reply)
         # print("JSON Location:\n" + reply.choices[0].message.content)   # debug
+        if(reply.choices[0].finish_reason == "length"):
+            raise ValueError("Location generation failed due to length. Try again.")
+            # TODO: append }" to reply.choices[0].message.content
         location = json.loads(reply.choices[0].message.content, cls=campaign.LocationDecoder)
         world.add_location(location)
         # remove all prompts and system messages from the list of messages
@@ -106,6 +115,9 @@ def generate_world(numLocations: int = 0, numCharacters: int = 0) -> campaign.Wo
         create_and_log(reply)
         # print("JSON Character:\n" + reply.choices[0].message.content)   # debug
         character = json.loads(reply.choices[0].message.content, cls=campaign.CharacterDecoder)
+        if(reply.choices[0].message.finish_reason == "length"):
+            raise ValueError("Character generation failed due to length. Try again.")
+            # TODO: append }" to reply.choices[0].message.content
         world.add_character(character)
         # remove all prompts and system messages from the list of messages
         for msg in all_messages:
@@ -114,11 +126,41 @@ def generate_world(numLocations: int = 0, numCharacters: int = 0) -> campaign.Wo
             elif(msg["role"] == "system"):
                 all_messages.remove(msg)
         all_messages.append(world.as_system_msg()) # update the world as context for the next character
+    
+    all_messages = []
+    all_messages.append(world.as_system_msg()) # add the world as context for the next location
+    for characterA in world.characters:
+        for characterB in world.characters:
+            if(characterA == characterB):   # don't generate relationships between the same character
+                continue
+            if(random.random() < RELATIONSHIP_PROBABILITY):   # generate a relationship between the two characters only if the random number is less than the probability
+                # the prompt for the next relationship
+                all_messages.extend([
+                    {"role": "user", "content": "Generate a relationship between " + str(characterA.name) + " and " + str(characterB.name) + "."},
+                    {"role": "system", "content": "Create your reply in the format: { \"relateAB\": \"Character A to B relationship\", \"relateBA\": \"Character B to A relationship\" }"}
+                ])
+                reply = openai.ChatCompletion.create(model=model, messages=all_messages, temperature=1.0, max_tokens=200)
+                create_and_log(reply)
+                # print("JSON Relationship:\n" + reply.choices[0].message.content)   # debug
+                if(reply.choices[0].message.finish_reason == "length"):
+                    raise ValueError("Relationship generation failed due to length. Try again.")
+                    # TODO: append }" to reply.choices[0].message.content
+                description = json.loads(reply.choices[0].message.content)  # don't use the decoder here because it's not a full object
+                relationship = campaign.Relationship(characterA, characterB, description["relateAB"], description["relateBA"])
+                character.add_relationship(relationship)
+                # remove all prompts and system messages from the list of messages
+                for msg in all_messages:
+                    if(msg["role"] == "user"):
+                        all_messages.remove(msg)
+                    elif(msg["role"] == "system"):
+                        all_messages.remove(msg)
+                all_messages.append(world.as_system_msg())
 
     return world
 
 if __name__ == "__main__":
     print("Beginning program.") # debug
+    random.seed(str(datetime.datetime.now()))   # seed the random number generator
     openai.api_key = os.getenv("OPENAI_API_KEY")
     model = "gpt-3.5-turbo"
     encoding = tiktoken.get_encoding("cl100k_base")
