@@ -2,7 +2,7 @@
 # This file contains classes for representing a campaign.
 
 import json
-from json import JSONEncoder
+from json import JSONEncoder, JSONDecoder
 import enum
 from typing import Any
 
@@ -25,13 +25,7 @@ class World():
         self.locations = []
 
     def __str__(self):
-        return str({
-            "name": self.name,
-            "description": self.description,
-            "characters": json.dumps(self.characters, cls=CharacterEncoder),
-            "relationships": self.relationships,
-            "locations": self.locations
-        })
+        return json.dumps(self, cls=WorldEncoder, ensure_ascii=True)
     
     def __repr__(self):
         return self.__str__()
@@ -50,7 +44,6 @@ class World():
     def add_location(self, location):
         assert(type(location) == Location)
         self.locations.append(location)
-        self.locations[-1].world = self
 
     def get_relationship_between(self, characterA: "Character", characterB: "Character") -> "Relationship":
         """Returns the relationship between two characters, or None if no relationship exists."""
@@ -65,12 +58,33 @@ class World():
 
 class Location():
     """Represents a single location in a World."""
-    def __init__(self, name: str, world: World = None) -> None:
+    def __init__(self, name: str) -> None:
         self.name = name
         self.description = ""
         self.traits = []
         self.inventory = []
-        self.world = world
+    
+    def __str__(self):
+        return json.dumps(self.__dict__, cls=LocationEncoder, ensure_ascii=True)
+    
+    def __repr__(self):
+        return self.__str__()
+    
+    def add_trait(self, quality: str, description: str):
+        assert(type(quality) == str)
+        assert(type(description) == str)
+        self.traits.append((quality, description))
+    
+    def add_item(self, item: "Item"):
+        assert(type(item) == Item)
+        self.inventory.append(item)
+    
+    def encode(self) -> str:
+        return self.__str__()
+
+    def as_system_msg(self):
+        """Returns a string representation of the location, formatted for OpenAI API system messages."""
+        return {"role": "system", "content": self.__str__()}
 
 class Character():
     """Represents a single character."""
@@ -82,7 +96,7 @@ class Character():
         self.inventory = []     # list of Item objects
     
     def __str__(self):
-        return json.dumps(self.__dict__, cls=CharacterEncoder)
+        return json.dumps(self.__dict__, cls=CharacterEncoder, ensure_ascii=True)
     
     def __repr__(self):
         return self.__str__()
@@ -108,7 +122,7 @@ class Relationship():
         self.relateBA = ""
     
     def __str__(self):
-        return json.dumps(self.__dict__, default=lambda self: self.encode())
+        return json.dumps(self.__dict__, default=RelationshipDecoder, ensure_ascii=True)
     
     def __repr__(self):
         return self.__str__()
@@ -148,7 +162,7 @@ class Item():
         self.size = Size.MEDIUM # Size enum
     
     def __str__(self):
-        return json.dumps(self.__dict__)
+        return json.dumps(self.__dict__, cls=ItemEncoder, ensure_ascii=True)
     
     def __repr__(self):
         return self.__str__()
@@ -159,6 +173,10 @@ class Item():
         self.traits[quality] = description
 
 class WorldEncoder(JSONEncoder):
+    def default(self, o):
+        return o.__dict__
+
+class LocationEncoder(JSONEncoder):
     def default(self, o):
         return o.__dict__
 
@@ -174,6 +192,72 @@ class ItemEncoder(JSONEncoder):
     def default(self, o):
         return o.__dict__
 
-class LocationEncoder(JSONEncoder):
-    def default(self, o):
-        return o.__dict__
+class WorldDecoder(JSONDecoder):
+    def decode(self, o):
+        dct = json.loads(o)
+        world = World(dct["name"], dct["description"])
+        try:
+            world.characters = json.loads(dct["characters"], cls=CharacterDecoder)
+        except:
+            world.characters = []
+        try:
+            world.relationships = json.loads(dct["relationships"], cls=RelationshipDecoder)
+        except:
+            world.relationships = []
+        try:
+            world.locations = json.loads(dct["locations"], cls=LocationDecoder)
+        except:
+            world.locations = []
+        return world
+
+class LocationDecoder(JSONDecoder):
+    def decode(self, o):
+        dct = json.loads(o)
+        location = Location(dct["name"])
+        location.description = dct["description"]
+        try:
+            location.traits = dct["traits"]
+        except:
+            location.traits = []
+        try:
+            location.inventory = json.loads(dct["inventory"], cls=ItemDecoder)
+        except:
+            location.inventory = []
+        return location
+
+class CharacterDecoder(JSONDecoder):
+    def decode(self, o):
+        dct = json.loads(o)
+        character = Character(dct["name"])
+        try:
+            character.traits = dct["traits"]
+        except:
+            character.traits = []
+        try:
+            character.inventory = json.loads(dct["inventory"], cls=ItemDecoder)
+        except:
+            character.inventory = []
+        return character
+
+class RelationshipDecoder(JSONDecoder):
+    def decode(self, o):
+        dct = json.loads(o)
+        relationship = Relationship(dct["characterA"], dct["characterB"])
+        relationship.relateAB = dct["relateAB"]
+        relationship.relateBA = dct["relateBA"]
+        return relationship
+
+class ItemDecoder(JSONDecoder):
+    def decode(self, o):
+        dct = json.loads(o)
+        item = Item(dct["name"])
+        item.description = dct["description"]
+        try:
+            item.traits = dct["traits"]
+        except:
+            item.traits = []
+        try:
+            item.size = dct["size"]
+        except:
+            item.size = Size.MEDIUM
+        return item
