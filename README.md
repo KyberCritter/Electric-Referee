@@ -1,2 +1,2 @@
 # Electric-Referee
-A digital referee for singleplayer Dungeons and Dragons.
+A digital referee for singleplayer Fifth Edition.
