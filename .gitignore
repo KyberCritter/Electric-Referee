@@ -164,3 +164,6 @@ log/
 
 # Example files
 examples/
+
+# Test files
+test.py

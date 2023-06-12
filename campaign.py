@@ -90,7 +90,7 @@ class Character():
     """Represents a single character."""
     def __init__(self, name) -> None:
         self.name = name
-        # self.description = ""
+        self.description = ""
         self.traits = {}        # dictionary of trait: description
         # self.relationships = [] # list of Relationship objects
         self.inventory = []     # list of Item objects
@@ -227,7 +227,7 @@ class LocationDecoder(JSONDecoder):
 
 class CharacterDecoder(JSONDecoder):
     def decode(self, o):
-        dct = json.loads(o)
+        dct = json.loads(o, )
         character = Character(dct["name"])
         try:
             character.traits = dct["traits"]
