@@ -167,3 +167,6 @@ examples/
 
 # Test files
 test.py
+
+# Working directory
+data/

@@ -5,6 +5,7 @@ import json
 from json import JSONEncoder, JSONDecoder
 import enum
 from typing import Any
+import datetime
 
 class Size(enum.IntEnum):
     """Represents the size of a creature or object."""
@@ -23,9 +24,10 @@ class World():
         self.characters = []
         self.relationships = []
         self.locations = []
+        self.created_time = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")   # serves as a unique ID
 
     def __str__(self):
-        return json.dumps(self, cls=WorldEncoder, ensure_ascii=True)
+        return json.dumps(self, cls=WorldEncoder, indent=4, ensure_ascii=True)
     
     def __repr__(self):
         return self.__str__()
@@ -36,7 +38,7 @@ class World():
 
     def add_relationship(self, relationship: "Relationship") -> bool:
         assert(type(relationship) == Relationship)
-        if not relationship in self.relationships and not relationship.flip() in self.relationships:
+        if not relationship in self.relationships and not relationship.flipped() in self.relationships:
             self.relationships.append(relationship)
             return True
         return False
@@ -48,13 +50,35 @@ class World():
     def get_relationship_between(self, characterA: "Character", characterB: "Character") -> "Relationship":
         """Returns the relationship between two characters, or None if no relationship exists."""
         for relationship in self.relationships:
-            if relationship.characterA == characterA and relationship.characterB == characterB or relationship.characterA == characterB and relationship.characterB == characterA:
+            if relationship.characterAName == characterA.name and relationship.characterBName == characterB.name or relationship.characterAName == characterB.name and relationship.characterBName == characterA.name:
                 return relationship
         return None
     
     def as_system_msg(self):
         """Returns a string representation of the world, formatted for OpenAI API system messages."""
         return {"role": "system", "content": self.__str__()}
+    
+    def characters_as_system_msg(self):
+        """Returns a list of string representations of the Characters, formatted for OpenAI API system messages."""
+        return [character.as_system_msg() for character in self.characters]
+    
+    def relationships_as_system_msg(self):
+        """Returns a list of string representations of the Relationships, formatted for OpenAI API system messages."""
+        return [relationship.as_system_msg() for relationship in self.relationships]
+    
+    def locations_as_system_msg(self):
+        """Returns a list of string representations of the Locations, formatted for OpenAI API system messages."""
+        return [location.as_system_msg() for location in self.locations]
+    
+    def world_basics(self) -> str:
+        """Returns a list of string representations of the world's basic information, formatted for OpenAI API system messages."""
+        return "The world is called " + self.name
+    
+    def encode(self) -> str:
+        return self.__str__()
+    
+    def decode(self, json_string: str) -> "World":
+        return json.loads(json_string, cls=WorldDecoder)
 
 class Location():
     """Represents a single location in a World."""
@@ -65,7 +89,7 @@ class Location():
         self.inventory = []
     
     def __str__(self):
-        return json.dumps(self.__dict__, cls=LocationEncoder, ensure_ascii=True)
+        return json.dumps(self.__dict__, cls=LocationEncoder, indent=4, ensure_ascii=True)
     
     def __repr__(self):
         return self.__str__()
@@ -83,7 +107,7 @@ class Location():
         return self.__str__()
 
     def as_system_msg(self):
-        """Returns a string representation of the location, formatted for OpenAI API system messages."""
+        """Returns a string representation of the Location, formatted for OpenAI API system messages."""
         return {"role": "system", "content": self.__str__()}
 
 class Character():
@@ -92,11 +116,11 @@ class Character():
         self.name = name
         self.description = ""
         self.traits = {}        # dictionary of trait: description
-        # self.relationships = [] # list of Relationship objects
         self.inventory = []     # list of Item objects
+        self.created_time = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")   # serves as a unique ID
     
     def __str__(self):
-        return json.dumps(self.__dict__, cls=CharacterEncoder, ensure_ascii=True)
+        return json.dumps(self.__dict__, cls=CharacterEncoder, indent=4, ensure_ascii=True)
     
     def __repr__(self):
         return self.__str__()
@@ -113,26 +137,33 @@ class Character():
     def encode(self) -> str:
         return self.__str__()
 
+    def as_system_msg(self):
+        """Returns a string representation of the Character, formatted for OpenAI API system messages."""
+        return {"role": "system", "content": self.__str__()}
+
 class Relationship():
     """Represents both directions of a relationship between two characters."""
-    def __init__(self, characterA: "Character", characterB: "Character") -> None:
-        self.characterA = characterA
-        self.characterB = characterB
+    def __init__(self, characterA: Character, characterB: Character) -> None:
+        self.characterAName = characterA.name
+        self.characterA_ID = characterA.created_time
+        self.characterBName = characterB.name
+        self.characterB_ID = characterB.created_time
         self.relateAB = ""
         self.relateBA = ""
+        self.created_time = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")   # serves as a unique ID
     
     def __str__(self):
-        return json.dumps(self.__dict__, default=RelationshipDecoder, ensure_ascii=True)
+        return json.dumps(self.__dict__, default=RelationshipDecoder, indent=4, ensure_ascii=True)
     
     def __repr__(self):
         return self.__str__()
     
-    def set_reciprocal_relationship(self, relationship: str):
+    def set_symmetric_relationship(self, relationship: str):
         assert(type(relationship) == str)
         self.relateAB = relationship
         self.relateBA = relationship
     
-    def set_bidirectional_relationship(self, relateAB: str, relateBA: str):
+    def set_asymmetric_relationship(self, relateAB: str, relateBA: str):
         assert(type(relateAB) == str)
         assert(type(relateBA) == str)
         self.relateAB = relateAB
@@ -140,16 +171,13 @@ class Relationship():
     
     def encode(self) -> str:
         """Returns a JSON representation of the Relationship."""
-        return str({
-            "characterA": str(self.characterA),
-            "characterB": str(self.characterB),
-            "relateAB": self.relateAB,
-            "relateBA": self.relateBA
-        })
+        return self.__str__()
     
-    def flip(self) -> "Relationship":
+    def flipped(self) -> "Relationship":
         """Returns a new Relationship with the characters and relationships swapped."""
-        tempRelationship = Relationship(self.characterB, self.characterA)
+        tempRelationship = Relationship(Character(self.characterBName), Character(self.characterAName))
+        tempRelationship.created_time = self.created_time
+        tempRelationship.characterA_ID, tempRelationship.characterB_ID = self.characterB_ID, self.characterA_ID
         tempRelationship.relateAB, tempRelationship.relateBA = self.relateBA, self.relateAB
         return tempRelationship
 
@@ -162,7 +190,7 @@ class Item():
         self.size = Size.MEDIUM # Size enum
     
     def __str__(self):
-        return json.dumps(self.__dict__, cls=ItemEncoder, ensure_ascii=True)
+        return json.dumps(self.__dict__, cls=ItemEncoder, indent=4, ensure_ascii=True)
     
     def __repr__(self):
         return self.__str__()
@@ -208,6 +236,7 @@ class WorldDecoder(JSONDecoder):
             world.locations = json.loads(dct["locations"], cls=LocationDecoder)
         except:
             world.locations = []
+        world.created_time = dct["created_time"]
         return world
 
 class LocationDecoder(JSONDecoder):
@@ -237,14 +266,16 @@ class CharacterDecoder(JSONDecoder):
             character.inventory = json.loads(dct["inventory"], cls=ItemDecoder)
         except:
             character.inventory = []
+        character.created_time = dct["created_time"]
         return character
 
 class RelationshipDecoder(JSONDecoder):
     def decode(self, o):
         dct = json.loads(o)
-        relationship = Relationship(dct["characterA"], dct["characterB"])
+        relationship = Relationship(dct["characterAName"], dct["characterBName"])
         relationship.relateAB = dct["relateAB"]
         relationship.relateBA = dct["relateBA"]
+        relationship.created_time = dct["created_time"]
         return relationship
 
 class ItemDecoder(JSONDecoder):
