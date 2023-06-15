@@ -22,3 +22,4 @@
 - Quest generation
 - Item size determination
 - Trait generation
+- World generation configuration
