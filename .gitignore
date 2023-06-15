@@ -160,13 +160,13 @@ cython_debug/
 #.idea/
 
 # Log of OpenAI API requests and responses
-log/
+log/*
 
 # Example files
-examples/
+examples/*
 
 # Test files
 test.py
 
 # Working directory
-data/
+data/*
