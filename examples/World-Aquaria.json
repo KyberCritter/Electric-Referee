@@ -1,0 +1,478 @@
+{
+    "name": "Aquaria",
+    "description": "Aquaria is a world where land is scarce and small islands or coastal towns thrive amidst a vast ocean. Large merchant ships and pirate galleys navigate through the waters, while enigmatic sea creatures both mystical and violent lurk beneath the waves. The magic used in this realm is dictated by control over the elements that define the mechanics of geology and oceanography.",
+    "characters": [
+        {
+            "name": "Allison Mayfield",
+            "description": "Allison is a skilled navigator who has traveled the seas of Aquaria for many years. She wears a weathered tricorn hat and a faded sailor's jacket festooned with nautical runes and talismans. She brings behind her a hemp hawser which demands the rule \u201csalute shanties without reason\u201c. She negotiates prices and arranges transport between ports dedicated to respectful laws while bent on summoning fell powers which board highly ranked figures. Her loyalty does not come cheap and titles her distinguished self amongst would-be first mates given her past accomplishments.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-10-19"
+        },
+        {
+            "name": "Marcella de la Cruz",
+            "description": "Marcella is a mermaid who possesses sharp wit and an even sharper spear. She is a seasoned hunter, navigating the depths of Aquaria with ease, and has a distinct wild look to match her fierce personality. With skin so resilient to water pressure and co-options, her famous helmet made from a kraken nullifies underwater lighting limitations that give other hunters a great advantage. Furthermore, her judgment speed decreases drastically when handling metal as well as deciphering answers filled with singing numbers asked by old crossword mermaids who guard underwater treasures. All shiny goes to these sweet old females, prepared in bed, assassins by candlelight!",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-10-34"
+        },
+        {
+            "name": "Avery Callahan",
+            "description": " Avery is a human fortune teller who uses tarot cards and divination techniques to discover the future and uncover hidden information. With long dark hair, she always adorns herself with bracelets and bangles displaying magical beliefs and tradings. Late at night, Avery may be found in shady alleys performing somewhat illicit deals.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-10-38"
+        },
+        {
+            "name": "Lydia Moon",
+            "description": "Otherworldly and enigmatic, Lydia is a wanderer who travels throughout Aquaria seeking out the rarest and most intriguing magical artifacts. Her pale skin contrasts starkly with her flowing, jet black hair that constantly flows like wildfire due to mysterious magic fumes that stealthily emerge from out off sight. Little is known about her past or her motivations, but rumor has it that she possesses knowledge of powers that could shake the very foundations of the realm. Bathing each organ with hemp medicine provides her with apparent dormancy encouraging intuitions beyond this life if inevitably before a glaring initiative.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-10-43"
+        },
+        {
+            "name": "Meghan Sanders",
+            "description": "Meghan is a skilled alchemist who lives on the outskirts of Aquaria. She creates magical potions that allow the user to breathe underwater and stay submerged for hours at a time. Her rusty red hair and metal goggles give her a steampunk look, and she often works through the night while listening to the calming tones of ocean waves that lap against her doorsteps. She values her privacy and doesn't make friends easily, preferring the solitude that her underwater garden offers her. However, rumors abound on what she may be cooking in her super secret lab, and unknown dangers hidden from an investigatory party.. hurrah!",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-10-49"
+        },
+        {
+            "name": "Silas Riverstone ",
+            "description": " Silas is a dashing ship captain with a sharp tongue and charisma to spare. He enjoys flaunting his wealth, dressing himself in stylish clothing and adorning himself with gems and other luxury items. Despite his arrogance and showmanship, Silas is highly skilled in naval combat and has never lost a battle on the seas of Aquaria. His crew idolizes him, and Silas never forgets to reward them for a job well done, often bringing them exotic treasures and rare foods from distant lands.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-10-54"
+        },
+        {
+            "name": "Eva Michaels",
+            "description": "Eva is a cunning and quick-witted spy who will sell information to the highest bidder yet manage to built anonymous trust through different methods. Her past has taught her how to anticipate betrayals to see with untainted eyes always working several steps ahead. With ravishing glow of her eyes in earth brown and black and wrist tattooed with secrete sigourney putting her enemies at unease inch by inch until credible information drops conversations deadly spheres. Yet, Eva has a fascination for the arts and spent most of her childhood reading lots of literature so a word-play delight for her would be tutoring plans while dabbing at large scales of art curious of creating color expressing works everyone can see.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-11-00"
+        },
+        {
+            "name": "Felicia Freelocke",
+            "description": "Felicia is a shrewd smuggler with a painful past. She has sharp green eyes that match her long auburn hair, which she often wears in a braid. Her ship, The Black Swallow, is small but agile, perfect for running goods under the radar of port authorities. She often dresses in dark clothes that allow her to blend into the crowds of coastal cities where she operates, making unsuspecting deals often mysterious causing the whistle sense of buried horror from fearful eyes rightly sizing her up due to her severe physique. Despite her life of deception, Felicia prides herself on always being honest with her crew and has earned their fierce loyalty through mutual trust.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-11-07"
+        },
+        {
+            "name": "Mary Elizabeth Granger",
+            "description": " Mary Elizabeth Granger is an ambitious young reporter who sets out on various journeys across Aquaria to discover and document unheard stories of the persecuted, minority clans living amongst this magical universe. With blonde curly hair a short wit conveying a long insight, Mary's curious persona along with resilient character empathy wins her trust amongst a few circles.Her favorite term of endearment she famous quotes \"-its's not the water I know its the depth which fascinates me.\" At hidden oases, shady inns, lurky net stops, instigating questions painted on diaries grant her horizon stance ovation in the daintiest selection posing vulnerabilities in magnificent awe.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-11-13"
+        },
+        {
+            "name": "Jason Ainsworth ",
+            "description": " Jason is an inventor and engineer who travels Aquaria in his high-tech vessel. He has dark-rimmed glasses that he often has to adjust as they slide down his nose from time to time. With welding mask and gloves always close at hand, he creates drones to help with his endeavors in researching how embedded rich compounds powerfully protect Aquaria's beings from ultraviolet and cosmic UV-B affected sunburn tans. Jason's ambition to dig deeper drives him to search for any irregular measures plummeting Aquaria's comfort zones despite confrontation he faces within this unknown prodigy.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-11-19"
+        },
+        {
+            "name": "Captain Reyna Wade",
+            "description": "Reyna is a fearless leader who commands her ship, the Nightingale, with precision and grace. Her jet black hair matches the color of her trusty leather gloves that never leave her possession. Reyna is respected by many in the pirate community, where the tales of her lightning-fast reflexes and unrivaled swordsmanship are whispered among the crewmates of ships equally fearing and coveting her favor. Yet, conversely, she clues serene viola gently when pacing or talking in lofts imbuing forgiveness when confessing espionage ventures, cloaked in shadows, has questioned tightly bores concerns but often succeeds, even aims for higher rewards yet unmorselled passions to general devastation.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-11-25"
+        },
+        {
+            "name": "Theodora Black",
+            "description": " Theodora is a witch who practices elemental magic with mastery over water and wind. She always wears a flowing dress the color of seafoam green, with cascading curls of jet black hair dotted by antique pearls. Her personal abode is by the lonely cliff, that rises and drops along the coast. Passing by its walls, faint laughter can reminiscent a feelings of overwhelming sadness or paramount joy. It is assumed around homespuns that whatever comes near that sphere is both her blessing or deduction of crippling trespassers.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-11-31"
+        },
+        {
+            "name": "Marley O'Sullivan",
+            "description": "Marley is a half-elf bard who uses her musical abilities to charm her way into any situation. Her striking auburn hair is usually styled in loose waves pulled back behind her pointed ears, and her lips always seem to curve upwards into a mischievous smile. In addition to her music, Marley is a skilled pickpocket and has been known to use her quick fingers to relieve unsuspecting victims of their valuables. She is constantly on the move, never staying in one place for too long, picking up rumors and gossip that she can use to her advantage.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-11-37"
+        },
+        {
+            "name": "Miranda Grey",
+            "description": "Miranda is a bookish and reclusive sorceress living atop a lonely spire overlooking the ocean. She spends her time studying the ancient magical artifacts she has discovered in her travels. She is always seen wearing a set of spectacles over her diluted hazel blue eyes and a lock of unruly pale hair escaping her patterns often pushed to the side as she consults her mysteriously shining crystal orb to call her virtual library back to her side. It is said that Miranda has an eidetic memory and is able to remember any piece of information she has ever read. She is an enigma, and few have seen her leave her spire, desperately waiting for her pouncing prosperity beyond sedentary years guiding her blind ambitions.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-11-44"
+        }
+    ],
+    "relationships": [
+        {
+            "characterAName": "Allison Mayfield",
+            "characterA_ID": "2023-06-14_23-10-19",
+            "characterBName": "Avery Callahan",
+            "characterB_ID": "2023-06-14_23-10-38",
+            "relateAB": "Allison Mayfield and Avery Callahan have a business relationship wherein Allison seeks divination and guidance from Avery for navigating through difficult oceanic weather and living up to her dark reputation as a distinguished first mate aboard world-renowned pirate ships.",
+            "relateBA": "Allison Mayfield and Avery Callahan have a business relationship wherein Allison seeks divination and guidance from Avery for navigating through difficult oceanic weather and living up to her dark reputation as a distinguished first mate aboard world-renowned pirate ships.",
+            "created_time": "2023-06-14_23-11-47"
+        },
+        {
+            "characterAName": "Allison Mayfield",
+            "characterA_ID": "2023-06-14_23-10-19",
+            "characterBName": "Jason Ainsworth ",
+            "characterB_ID": "2023-06-14_23-11-19",
+            "relateAB": "Despite their vastly different areas of expertise, Allison and Jason have formed a cooperative relationship to navigate the seas and study Aquaria's compounds and ecosystems. They complement each other well, combining their skills to gather more insights and secure lucrative deals, and hopefully avoid any confrontations from their discoveries together.",
+            "relateBA": "Despite their vastly different areas of expertise, Allison and Jason have formed a cooperative relationship to navigate the seas and study Aquaria's compounds and ecosystems. They complement each other well, combining their skills to gather more insights and secure lucrative deals, and hopefully avoid any confrontations from their discoveries together.",
+            "created_time": "2023-06-14_23-12-01"
+        },
+        {
+            "characterAName": "Marcella de la Cruz",
+            "characterA_ID": "2023-06-14_23-10-34",
+            "characterBName": "Silas Riverstone ",
+            "characterB_ID": "2023-06-14_23-10-54",
+            "relateAB": "RivalsForDominanceOverAquaticTerritory",
+            "relateBA": "RivalsForDominanceOverAquaticTerritory",
+            "created_time": "2023-06-14_23-12-05"
+        },
+        {
+            "characterAName": "Avery Callahan",
+            "characterA_ID": "2023-06-14_23-10-38",
+            "characterBName": "Lydia Moon",
+            "characterB_ID": "2023-06-14_23-10-43",
+            "relateAB": "spirited rivals",
+            "relateBA": "spirited rivals",
+            "created_time": "2023-06-14_23-12-10"
+        },
+        {
+            "characterAName": "Avery Callahan",
+            "characterA_ID": "2023-06-14_23-10-38",
+            "characterBName": "Felicia Freelocke",
+            "characterB_ID": "2023-06-14_23-11-07",
+            "relateAB": "Trusted business associates with the occasional collaboration on illegal deals, Avery Callahan and Felicia Freelocke have built a working relationship over time.",
+            "relateBA": "Trusted business associates with the occasional collaboration on illegal deals, Avery Callahan and Felicia Freelocke have built a working relationship over time.",
+            "created_time": "2023-06-14_23-12-15"
+        },
+        {
+            "characterAName": "Avery Callahan",
+            "characterA_ID": "2023-06-14_23-10-38",
+            "characterBName": "Mary Elizabeth Granger",
+            "characterB_ID": "2023-06-14_23-11-13",
+            "relateAB": "Financially supporting each other, keeping a balanced connection for both their hidden interests in seeking truths,stopping at shady iin areas,wearing tokens or runes as gifted bangles gained new meaning around their joint moralities.(reordered)",
+            "relateBA": "Financially supporting each other, keeping a balanced connection for both their hidden interests in seeking truths,stopping at shady iin areas,wearing tokens or runes as gifted bangles gained new meaning around their joint moralities.(reordered)",
+            "created_time": "2023-06-14_23-12-18"
+        },
+        {
+            "characterAName": "Avery Callahan",
+            "characterA_ID": "2023-06-14_23-10-38",
+            "characterBName": "Captain Reyna Wade",
+            "characterB_ID": "2023-06-14_23-11-25",
+            "relateAB": "SisterhoodOfMagicAndDanger",
+            "relateBA": "SisterhoodOfMagicAndDanger",
+            "created_time": "2023-06-14_23-12-18"
+        },
+        {
+            "characterAName": "Avery Callahan",
+            "characterA_ID": "2023-06-14_23-10-38",
+            "characterBName": "Theodora Black",
+            "characterB_ID": "2023-06-14_23-11-31",
+            "relateAB": "tarotreadingpartners",
+            "relateBA": "tarotreadingpartners",
+            "created_time": "2023-06-14_23-12-19"
+        },
+        {
+            "characterAName": "Lydia Moon",
+            "characterA_ID": "2023-06-14_23-10-43",
+            "characterBName": "Marcella de la Cruz",
+            "characterB_ID": "2023-06-14_23-10-34",
+            "relateAB": "Romantic partners.",
+            "relateBA": "Romantic partners.",
+            "created_time": "2023-06-14_23-12-19"
+        },
+        {
+            "characterAName": "Lydia Moon",
+            "characterA_ID": "2023-06-14_23-10-43",
+            "characterBName": "Meghan Sanders",
+            "characterB_ID": "2023-06-14_23-10-49",
+            "relateAB": "FriendshipThroughAlchemy",
+            "relateBA": "FriendshipThroughAlchemy",
+            "created_time": "2023-06-14_23-12-20"
+        },
+        {
+            "characterAName": "Lydia Moon",
+            "characterA_ID": "2023-06-14_23-10-43",
+            "characterBName": "Mary Elizabeth Granger",
+            "characterB_ID": "2023-06-14_23-11-13",
+            "relateAB": "Competitorsorting to the fact that both Lydia Moon and Mary Elizabeth Granger engage in journeys across Aquaria, they often find themselves coming across each other in the quest for their respective missions. The two are not necessarily friends, but rather professional acquaintances who sometimes collaborate on stories in which their interests overlap. While Lydia is more reserved and secretive, Mary uses her people skills and friendly demeanor to uncover stories and earn the trust of her sources.",
+            "relateBA": "Competitorsorting to the fact that both Lydia Moon and Mary Elizabeth Granger engage in journeys across Aquaria, they often find themselves coming across each other in the quest for their respective missions. The two are not necessarily friends, but rather professional acquaintances who sometimes collaborate on stories in which their interests overlap. While Lydia is more reserved and secretive, Mary uses her people skills and friendly demeanor to uncover stories and earn the trust of her sources.",
+            "created_time": "2023-06-14_23-12-24"
+        },
+        {
+            "characterAName": "Lydia Moon",
+            "characterA_ID": "2023-06-14_23-10-43",
+            "characterBName": "Jason Ainsworth ",
+            "characterB_ID": "2023-06-14_23-11-19",
+            "relateAB": "Lydia Moon and Jason Ainsworth share a competitive acquaintance.",
+            "relateBA": "Lydia Moon and Jason Ainsworth share a competitive acquaintance.",
+            "created_time": "2023-06-14_23-12-25"
+        },
+        {
+            "characterAName": "Meghan Sanders",
+            "characterA_ID": "2023-06-14_23-10-49",
+            "characterBName": "Mary Elizabeth Granger",
+            "characterB_ID": "2023-06-14_23-11-13",
+            "relateAB": "Mary Elizabeth Granger approaches Meghan Sanders for an interview for her latest article on minority clans living in Aquaria. Meghan is initially hesitant to reveal any information about her elusive alchemical experiments and underwater garden. However, she begins to open up to Mary's earnest curiosity and appreciation for the depths of the sea. Soon, they develop a mutual respect for each other's work, and Meghan agrees to allow Mary exclusive coverage of her new creation, the Panacea Potion, when it's finally complete. Thus, they set on an adventurous yet respectful association of academic inspiration.",
+            "relateBA": "Mary Elizabeth Granger approaches Meghan Sanders for an interview for her latest article on minority clans living in Aquaria. Meghan is initially hesitant to reveal any information about her elusive alchemical experiments and underwater garden. However, she begins to open up to Mary's earnest curiosity and appreciation for the depths of the sea. Soon, they develop a mutual respect for each other's work, and Meghan agrees to allow Mary exclusive coverage of her new creation, the Panacea Potion, when it's finally complete. Thus, they set on an adventurous yet respectful association of academic inspiration.",
+            "created_time": "2023-06-14_23-12-34"
+        },
+        {
+            "characterAName": "Meghan Sanders",
+            "characterA_ID": "2023-06-14_23-10-49",
+            "characterBName": "Theodora Black",
+            "characterB_ID": "2023-06-14_23-11-31",
+            "relateAB": "Friendly Rivals.",
+            "relateBA": "Friendly Rivals.",
+            "created_time": "2023-06-14_23-12-35"
+        },
+        {
+            "characterAName": "Meghan Sanders",
+            "characterA_ID": "2023-06-14_23-10-49",
+            "characterBName": "Marley O'Sullivan",
+            "characterB_ID": "2023-06-14_23-11-37",
+            "relateAB": "Potion patron and musical collaborator.",
+            "relateBA": "Potion patron and musical collaborator.",
+            "created_time": "2023-06-14_23-12-35"
+        },
+        {
+            "characterAName": "Silas Riverstone ",
+            "characterA_ID": "2023-06-14_23-10-54",
+            "characterBName": "Eva Michaels",
+            "characterB_ID": "2023-06-14_23-11-00",
+            "relateAB": "Voyagers",
+            "relateBA": "Voyagers",
+            "created_time": "2023-06-14_23-12-36"
+        },
+        {
+            "characterAName": "Eva Michaels",
+            "characterA_ID": "2023-06-14_23-11-00",
+            "characterBName": "Captain Reyna Wade",
+            "characterB_ID": "2023-06-14_23-11-25",
+            "relateAB": "Sophisticated_Frenemies",
+            "relateBA": "Sophisticated_Frenemies",
+            "created_time": "2023-06-14_23-12-36"
+        },
+        {
+            "characterAName": "Eva Michaels",
+            "characterA_ID": "2023-06-14_23-11-00",
+            "characterBName": "Miranda Grey",
+            "characterB_ID": "2023-06-14_23-11-44",
+            "relateAB": "Romantic partners.",
+            "relateBA": "Romantic partners.",
+            "created_time": "2023-06-14_23-12-37"
+        },
+        {
+            "characterAName": "Felicia Freelocke",
+            "characterA_ID": "2023-06-14_23-11-07",
+            "characterBName": "Marcella de la Cruz",
+            "characterB_ID": "2023-06-14_23-10-34",
+            "relateAB": "BitterRivals-Felicia always had a grudge against Marcella because she sees her as a symbol of the very treasures that were stolen from her when an underwater palace was attacked and looted in her childhood. Marcella, in turn, views Felicia as a piracy cod-piece scupling amongst the urchins of the ocean. Their mutual enmity often quells opportunities for potential collaborations amidst any pirate or mermaid galatic antics and highly increases the epicness level of crooseonic team versus dynamic-Dungeons-&-Sea-dragons rise battle-events!",
+            "relateBA": "BitterRivals-Felicia always had a grudge against Marcella because she sees her as a symbol of the very treasures that were stolen from her when an underwater palace was attacked and looted in her childhood. Marcella, in turn, views Felicia as a piracy cod-piece scupling amongst the urchins of the ocean. Their mutual enmity often quells opportunities for potential collaborations amidst any pirate or mermaid galatic antics and highly increases the epicness level of crooseonic team versus dynamic-Dungeons-&-Sea-dragons rise battle-events!",
+            "created_time": "2023-06-14_23-12-48"
+        },
+        {
+            "characterAName": "Felicia Freelocke",
+            "characterA_ID": "2023-06-14_23-11-07",
+            "characterBName": "Meghan Sanders",
+            "characterB_ID": "2023-06-14_23-10-49",
+            "relateAB": "ProfessionalRivalry\n\nDespite Felicia's desire to maintain friendly relationships with others she comes into contact with, she can't help but feel a competitive streak towards Meghan. Felicia sees the incredible demand for Meghan's underwater breathing potions as a lucrative opportunity for her own business. However, Meghan is not one to easily cave to pressure and has leaked fake rumors about the true nature of her work and fake high-cost prices to deter Felicia from profiling Meghan's work endeavours while testing enemy combat underwater with Aquaria's soldiers wearing Meghans legendary products during resurfacing.",
+            "relateBA": "ProfessionalRivalry\n\nDespite Felicia's desire to maintain friendly relationships with others she comes into contact with, she can't help but feel a competitive streak towards Meghan. Felicia sees the incredible demand for Meghan's underwater breathing potions as a lucrative opportunity for her own business. However, Meghan is not one to easily cave to pressure and has leaked fake rumors about the true nature of her work and fake high-cost prices to deter Felicia from profiling Meghan's work endeavours while testing enemy combat underwater with Aquaria's soldiers wearing Meghans legendary products during resurfacing.",
+            "created_time": "2023-06-14_23-12-53"
+        },
+        {
+            "characterAName": "Felicia Freelocke",
+            "characterA_ID": "2023-06-14_23-11-07",
+            "characterBName": "Eva Michaels",
+            "characterB_ID": "2023-06-14_23-11-00",
+            "relateAB": "Smuggler Felicia Freelocke and Spy Eva Michaels have a clandestine partnership that has lasted for years, marked by conversations meant to last by meetings undeclared fate. While they come from vastly different backgrounds and work in very different fields, their cunning minds, and desire for adventure have brought them together on a common ground groomed by silence. Eva often passes Felicia scraps of information she attains during her espionage work- with meandering oracular interrogatories about smuggling operation Felicia undertakes. And in turn, Felicia arranges for the illicit acquisition or transportation of prototype technology, different suppliers, and procures favorite art pieces throughout Felicia's assortment of societies dabbling through town paying subtle calls to collectors and gossip-ridden people locked backwater alleys undisturbed.",
+            "relateBA": "Smuggler Felicia Freelocke and Spy Eva Michaels have a clandestine partnership that has lasted for years, marked by conversations meant to last by meetings undeclared fate. While they come from vastly different backgrounds and work in very different fields, their cunning minds, and desire for adventure have brought them together on a common ground groomed by silence. Eva often passes Felicia scraps of information she attains during her espionage work- with meandering oracular interrogatories about smuggling operation Felicia undertakes. And in turn, Felicia arranges for the illicit acquisition or transportation of prototype technology, different suppliers, and procures favorite art pieces throughout Felicia's assortment of societies dabbling through town paying subtle calls to collectors and gossip-ridden people locked backwater alleys undisturbed.",
+            "created_time": "2023-06-14_23-12-59"
+        },
+        {
+            "characterAName": "Mary Elizabeth Granger",
+            "characterA_ID": "2023-06-14_23-11-13",
+            "characterBName": "Eva Michaels",
+            "characterB_ID": "2023-06-14_23-11-00",
+            "relateAB": "EspionageBuddies.",
+            "relateBA": "EspionageBuddies.",
+            "created_time": "2023-06-14_23-13-12"
+        },
+        {
+            "characterAName": "Jason Ainsworth ",
+            "characterA_ID": "2023-06-14_23-11-19",
+            "characterBName": "Meghan Sanders",
+            "characterB_ID": "2023-06-14_23-10-49",
+            "relateAB": "Jason reached out to Meghan in hopes of collaborating on a project that would enhance Aquaria's environmental protection system.",
+            "relateBA": "Jason reached out to Meghan in hopes of collaborating on a project that would enhance Aquaria's environmental protection system.",
+            "created_time": "2023-06-14_23-13-18"
+        },
+        {
+            "characterAName": "Captain Reyna Wade",
+            "characterA_ID": "2023-06-14_23-11-25",
+            "characterBName": "Marcella de la Cruz",
+            "characterB_ID": "2023-06-14_23-10-34",
+            "relateAB": "Reyna and Marcella's bond forms from a mutual appreciation of each other's fearlessness and intellect, as they engage in strategy sessions mapping out the depths and uncharted territories drawn beyond enemy lines.",
+            "relateBA": "Reyna and Marcella's bond forms from a mutual appreciation of each other's fearlessness and intellect, as they engage in strategy sessions mapping out the depths and uncharted territories drawn beyond enemy lines.",
+            "created_time": "2023-06-14_23-13-20"
+        },
+        {
+            "characterAName": "Captain Reyna Wade",
+            "characterA_ID": "2023-06-14_23-11-25",
+            "characterBName": "Meghan Sanders",
+            "characterB_ID": "2023-06-14_23-10-49",
+            "relateAB": "DistrustfulnessFlourishesBetweenTheTwo.",
+            "relateBA": "DistrustfulnessFlourishesBetweenTheTwo.",
+            "created_time": "2023-06-14_23-13-21"
+        },
+        {
+            "characterAName": "Captain Reyna Wade",
+            "characterA_ID": "2023-06-14_23-11-25",
+            "characterBName": "Marley O'Sullivan",
+            "characterB_ID": "2023-06-14_23-11-37",
+            "relateAB": "In the past, Captain Reyna Wade and Marley O'Sullivan were members of the same pirate crew. Marley initially joined the crew as a way to escape a troubled past, while Reyna found comfort in her leadership position. Despite their different reasons for joining, they quickly hit it off and became good friends. Reyna recognized Marley's talent as a bard and oftentimes allowed her to perform for the crew during their long voyages. Marley, in turn, always had Reyna's back during battles and would use her charm and thievery skills to assist her captain. While they have now gone their separate ways, they remain in contact and meet up whenever their paths cross.",
+            "relateBA": "In the past, Captain Reyna Wade and Marley O'Sullivan were members of the same pirate crew. Marley initially joined the crew as a way to escape a troubled past, while Reyna found comfort in her leadership position. Despite their different reasons for joining, they quickly hit it off and became good friends. Reyna recognized Marley's talent as a bard and oftentimes allowed her to perform for the crew during their long voyages. Marley, in turn, always had Reyna's back during battles and would use her charm and thievery skills to assist her captain. While they have now gone their separate ways, they remain in contact and meet up whenever their paths cross.",
+            "created_time": "2023-06-14_23-13-28"
+        },
+        {
+            "characterAName": "Theodora Black",
+            "characterA_ID": "2023-06-14_23-11-31",
+            "characterBName": "Allison Mayfield",
+            "characterB_ID": "2023-06-14_23-10-19",
+            "relateAB": "Oldest friends and close allies through their variety of adventurous voyages as far back as the registry recollection.",
+            "relateBA": "Oldest friends and close allies through their variety of adventurous voyages as far back as the registry recollection.",
+            "created_time": "2023-06-14_23-13-29"
+        },
+        {
+            "characterAName": "Theodora Black",
+            "characterA_ID": "2023-06-14_23-11-31",
+            "characterBName": "Eva Michaels",
+            "characterB_ID": "2023-06-14_23-11-00",
+            "relateAB": "Secret Rivals.",
+            "relateBA": "Secret Rivals.",
+            "created_time": "2023-06-14_23-13-30"
+        },
+        {
+            "characterAName": "Theodora Black",
+            "characterA_ID": "2023-06-14_23-11-31",
+            "characterBName": "Felicia Freelocke",
+            "characterB_ID": "2023-06-14_23-11-07",
+            "relateAB": "star-crossed lovers",
+            "relateBA": "star-crossed lovers",
+            "created_time": "2023-06-14_23-13-30"
+        },
+        {
+            "characterAName": "Marley O'Sullivan",
+            "characterA_ID": "2023-06-14_23-11-37",
+            "characterBName": "Allison Mayfield",
+            "characterB_ID": "2023-06-14_23-10-19",
+            "relateAB": "Rivals for the admiration of a notorious captain.",
+            "relateBA": "Rivals for the admiration of a notorious captain.",
+            "created_time": "2023-06-14_23-13-33"
+        },
+        {
+            "characterAName": "Miranda Grey",
+            "characterA_ID": "2023-06-14_23-11-44",
+            "characterBName": "Avery Callahan",
+            "characterB_ID": "2023-06-14_23-10-38",
+            "relateAB": "Fortune_exchange_between_sorceresses",
+            "relateBA": "Fortune_exchange_between_sorceresses",
+            "created_time": "2023-06-14_23-13-42"
+        },
+        {
+            "characterAName": "Miranda Grey",
+            "characterA_ID": "2023-06-14_23-11-44",
+            "characterBName": "Mary Elizabeth Granger",
+            "characterB_ID": "2023-06-14_23-11-13",
+            "relateAB": "Mentorship",
+            "relateBA": "Mentorship",
+            "created_time": "2023-06-14_23-13-46"
+        },
+        {
+            "characterAName": "Miranda Grey",
+            "characterA_ID": "2023-06-14_23-11-44",
+            "characterBName": "Jason Ainsworth ",
+            "characterB_ID": "2023-06-14_23-11-19",
+            "relateAB": "Library Research Partners.",
+            "relateBA": "Library Research Partners.",
+            "created_time": "2023-06-14_23-13-46"
+        },
+        {
+            "characterAName": "Miranda Grey",
+            "characterA_ID": "2023-06-14_23-11-44",
+            "characterBName": "Captain Reyna Wade",
+            "characterB_ID": "2023-06-14_23-11-25",
+            "relateAB": "Piratical rivalry turned into enigmatic correspondents with veiling flirtatious fascination for each other's adventurous lifestyle in a theatrical gesture of letters expressly lauding and interrogating future heist-perceptivities or similarly obscure knowledge about sail-defying magic.",
+            "relateBA": "Piratical rivalry turned into enigmatic correspondents with veiling flirtatious fascination for each other's adventurous lifestyle in a theatrical gesture of letters expressly lauding and interrogating future heist-perceptivities or similarly obscure knowledge about sail-defying magic.",
+            "created_time": "2023-06-14_23-13-49"
+        }
+    ],
+    "locations": [
+        {
+            "name": "Whistler's Cove",
+            "description": " Nestled between jagged cliffs and crashing waves, Whistler's Cove is a picturesque sea-side town known for its thriving fishing industries and charming old-world architecture. Fishermen ply their trade in the harbor, while craftspeople from across the land sell their wares at bustling street-side markets. Visitors can wander the cobblestone streets, snag a fresh seafood platter at one of the shore-side taverns, or explore the network of pitch-dark caves and grottos carved into the seaside cliffs. A magical place where time stands still, --called The Whistler's as the crashing waves on the little shore cliffs gives a sound of a slide whistle. Couples hand out enjoying the sunset all along the coastal area brightens up the place making it more blissful.",
+            "traits": [],
+            "inventory": []
+        },
+        {
+            "name": "Lone Pine Forest",
+            "description": " A dense forest dominated by lone pine trees stretching up to the sky. It is rumored to house some of the oldest and wisest magical creatures of Aquaria. Visitors to the forest must earn the trust of the creatures they encounter, each of which has different demands to prove honesty and kindness before offering guidance or sharing skill. Above all, the Lone Pine tree at the heart of this forest holds sacred druid knowledge and energy; many travelers are mysteriously drawn to it, but few succeed in unraveling its secrets.",
+            "traits": [],
+            "inventory": [
+                {
+                    "name": "Mystic Pinecone",
+                    "description": "A pinecone imbued with magical energy found only in the Lone Pine Forest. It has the power to slightly heal the user and their surroundings. The magic within the pinecone replenishes over time and can be used multiple times.",
+                    "traits": {},
+                    "size": 2
+                }
+            ]
+        },
+        {
+            "name": "Quartzpeak Valley",
+            "description": "A hidden valley nestled in between towering mountains known for its glittering crystals and sparkling quartz formations. The ancient magical energies that flow through it have imbued all the flora and fauna with mystical properties, and the colorful butterflies and dragonflies that flutter around bring even more wonder to the already bewitching site. Giant elk with luminous antler veins roam the valley since eabaes here have discovered perfect conditions for nourishing grass every at each sunrise. There is also an elusive pixie tribe who records proverbs onto the bark of trees. Journeyers that are determined and brave (enough to drink the valley water which induces spontaneous teleport) when they approach a shard will awaken the being inside affectionately called varanyx whose power can only burn related foes urging immediate help for the eyes they poisoned.",
+            "traits": [],
+            "inventory": [
+                {
+                    "name": "Crystal Bloom",
+                    "description": "A rare flower found only in the depths of Quartzpeak Valley. Its petals are translucent and iridescent, and emit a soft, magical glow in the darkness. The flower requires the unique energy of the valley to grow, and is said to have extremely potent healing properties when brewed into a tea.",
+                    "traits": {},
+                    "size": 2
+                },
+                {
+                    "name": "Mystic Crystal Shard",
+                    "description": "Mysterious crystal shards found scattered all over the valley floor. They seem to have been broken off of a larger crystal, and their properties range from enchantments that alter flora\u2019s behavior and growth to dangerous power used by wild-beasts and the wise alike for enchantment or necromancy. Some believe collecting a few of these shards and studying them could unlock some of the valley's deepest secrets.",
+                    "traits": {},
+                    "size": 2
+                }
+            ]
+        },
+        {
+            "name": "The Azure Mountains",
+            "description": "A vast range of jagged mountains with peaks pervaded by pervasive blue frost. The winds carry ethereal singing secrets that soothes anyone who listens and sometimes incredible memories without revealing sources behind them. At times, one can catch sight of secretive magic falcons drifting at higher altitudes keeping an eye on travelers' activity. The caverns between the boulder walls at the mountain outliers bear exceptionally remarkable ice whistling caves reverberating somber echoes that grow louder throughout the narrow valleys. People fear to enter because they say travelers may experience illusions previously unseen which can confuse or outright change their perception of reality.",
+            "traits": [],
+            "inventory": [
+                {
+                    "name": "Crystal Pendants",
+                    "description": "A set of beautiful, handcrafted crystal pendants that emanate a soft glow and exudes calming energy that can help attune one's mind, soothe the spirit, and restore balance in the body. These mystical pieces are favored by the sages and seers across Aquaria, who claim they were gifts from the Nirvana Matriarchs eons ago. Some say these pendants can enhance one's perception of inner and outer harmony and unlock secrets of the sphinxes.",
+                    "traits": {},
+                    "size": 2
+                },
+                {
+                    "name": "Silver Moon Earrings",
+                    "description": "Beautiful delicate silver earrings in the shape of a crescent moon. They reflect the light of the night sky and imbue the wearer with a sense of calm and clarity, as if the wearer is channeling the moon's peaceful energy.",
+                    "traits": {},
+                    "size": 2
+                }
+            ]
+        },
+        {
+            "name": "Amberstead Harbor",
+            "description": "A bustling harbor town with towering amber cliffs on the seaside casting marvellous reflections around. While running their daily errands, larks and squerries call to each other traversing pedestrians who awaken hidden fragrances beneath the tufts of grass. Dragonesque water creature on shallow depths become attractions as wonderful opal whirlpools including colors beneath whisks visitors off the deck of their feet at times though lecraois clearing minor unsafe situations in time. Large hammocks hang in patchy areas granting discreet backgrounds creating the perfect spot after winding hours in the hustle and bustle of nearby shops.",
+            "traits": [],
+            "inventory": []
+        }
+    ],
+    "created_time": "2023-06-14_23-09-40"
+}

@@ -24,7 +24,7 @@ def log_data():
             break
 
     # Create the 'CURRENT' folder inside the 'examples' folder
-    world_dir = os.path.join("examples", world_name)
+    world_dir = os.path.join("worlds", world_name)
     os.mkdir(world_dir)
     
     # Move all files from the 'data' folder to the 'CURRENT' folder
@@ -43,7 +43,7 @@ if __name__ == "__main__":
     world = gen.generate_world(numLocations=5, numCharacters=15, numItems=5)
     print("Reply received.")
     pretty_world = json.dumps(world, indent=4, cls=campaign.WorldEncoder, ensure_ascii=True)
-    with open("./log/" + world.name + ".json", "w") as f:
+    with open("./completed/" + world.name + "World-" + world.name + ".json", "w") as f:
         f.write(pretty_world)
 
     print("Cleaning up...") # debug

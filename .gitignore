@@ -162,11 +162,11 @@ cython_debug/
 # Log of OpenAI API requests and responses
 log/*
 
-# Example files
-examples/*
-
 # Test files
 test.py
 
 # Working directory
 data/*
+
+# Completed Worlds
+worlds/*

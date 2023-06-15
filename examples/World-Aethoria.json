@@ -1,0 +1,490 @@
+{
+    "name": "Aethoria",
+    "description": "Aethoria is a high-fantasy world filled with magic and wonder. It is home to sprawling cities, towering mountains, dense forests and vast deserts. The sky above is scattered with magical constellations that tell the stories of the world's history. Four nations each represent one of the ancient elements and strive for supremacy over one another, all while an ancient threat seeks to consume the very essence of the world. Adventurers must navigate the politics of these nations, delving into dangerous dungeons and facing off against mighty beasts with a wealth of magical abilities at their disposal.",
+    "characters": [
+        {
+            "name": "Izumi",
+            "description": "Izumi is a trained ninja from the nation of Elementia. She possesses swift reflexes and cunning wit that can get her out of almost any situation. She wears a traditional ninja garb adorned with plush red animal ears. Izumi rarely speaks about her past, let alone her emotions, but those close to her know she's a sensitive soul at heart.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-42-41"
+        },
+        {
+            "name": "Eno",
+            "description": "Eno is a halfling bard with a flair for theatrics. He travels from place to place, singing songs and telling stories to anyone who will listen. Eno is usually upbeat and cheerful, but if anyone harms his friends or his beloved lute, he becomes a fierce protecter. He dresses in brightly colored outfits and always carries his lute with him, which is adorned with various gemstones.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-42-45"
+        },
+        {
+            "name": "Lilya",
+            "description": "Lilya is a half-elf rogue with piercing ice blue eyes and quick hands. Growing up on the streets of Zephyr's Haven, she learned how to swipe small trinkets and coin purses before she could walk. Through the years, she's developed a sharp wit and combat skills to become a crafty and skilled strategist. Usually dressed in dark leather armor, she always keeps her hood up and her black hair tightly braided. Her sharp tongue and intense drive for gaining wealth can annoy some, but nobody denies her abilities as a reliable ally in any heist or battle.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-42-50"
+        },
+        {
+            "name": "Cassius",
+            "description": "Cassius is a charismatic human sorcerer with jet black hair and piercing green eyes. He comes from a family of magic-users and is well-versed in a wide range of powerful spells. Despite his privileged upbringing, Cassius chose to leave his cushy life behind in search of adventure and excitement. He wears flowing silk robes in shimmering blues and purples embroidered by his own hand. Though sometimes overconfident, he's quick on his feet and always willing to lend a hand to a friendly adventurer in need.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-43-05"
+        },
+        {
+            "name": "Scarlet",
+            "description": "Scarlet is a tiefling sorceress with long curly fiery red hair and vibrant golden eyes. She comes from a tribe of nomads and is an expert in the magical ways of the desert. She wears clothing made of lightweight and colorful fabrics, adorned with silver and gold, and carries a decorated wand as her weapon of choice. Her charming demeanor is matched only by her sharp tongue, wit, and courage. Scarlet is a wanderer looking to discover the mysterious and powerful arcane rituals performed by her ancestors' tribe in the hidden desert of Aethoria.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-43-11"
+        },
+        {
+            "name": "Eira",
+            "description": "Eira is a powerful sorceress from the northern country of Frostbreak. Her icy blue eyes and long silver hair contribute to the aura of frost and the chill that surround her. Eira wears elegant fur coats that are both warm and protective against the rugged and snowy terrain of her homeland. Her mastery of ice magic desolates whatever is in her way, vulnerable and exposed. But, Eira still seeks more knowledge and more power beyond the insular strategies of traditional ice magic used in Frostbreak for eons. Her curious, emphatic and free-spirited nature often gets her into trouble but has won her allies among fellow explorers beyond her home which could help her in unraveling even the most mysterious forces at play in the world of Aethoria.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-43-18"
+        },
+        {
+            "name": "Vicente",
+            "description": "Vicente is a young gnome engineer who loves building complex machines and gadgets. He comes from the nation of Elementia and has a fondness for fire element based machinery. Vicente is often tinkering with inanimate objects and messing with tools of any kind. Although incredibly skilled and level-headed, he's known to gasp wildly in moments of discovery regarding ground-breaking mechanical ideas and designs. He wears a pair of brown, round goggles and a stained apron providing coverage for his denim pants.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-43-23"
+        },
+        {
+            "name": "Vistra",
+            "description": "Vistra is a druidess from the lush forests of Aethoria, adorned in verdant garb. Her emerald green eyes mirror the colors of the magnificent grove that she calls her home. Vistra has the uncanny ability to communicate and control nature to her will. Travellers have whispered about seeing her take the guise of beasts and birds. Her magic mends even the gravest injuries and she has ever been known to cure diseases with the help of medicinal herbs and tinctures that she creates with her druidic knowledge. However, heed caution while interacting with her, for if need be, Vistra can summon the wrath of nature with an earthshaking anger.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-43-30"
+        },
+        {
+            "name": "Brynn ",
+            "description": " Brynn is a dwarven blacksmith from the depths of Oakbrace. As a master artisan of metalwork, his weapons forged from molten metal are desired by both blacksmiths and adventurers from the deepest mineshafts in Aethoria's earthy heart. He's a robust hybrid character who carries the weight of his clan's heritage alongside newly commissioned opportunities. Standing steadfast in battles and loyal in his beliefs regarding honour and societal order, Brynn revels in his newfound abilities as a proficient battlemaster, fair adopter and coach to many apprentices of similar dedication and spirit of teamwork.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-43-36"
+        },
+        {
+            "name": "Anya",
+            "description": "Anya is a skilled archer from the nation of Windsea. She's quiet by nature but incredibly observant and analytical. She has a deep love for nature and the creatures that inhabit it but will not hesitate to defend herself or her friends using her exceptional archery skills. Anya has a pet fox named Alba who she loves more than anything in the world. She wears light leather armor to remain agile while on her feet, with a quiver of assorted arrows always slung over her shoulder.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-43-41"
+        },
+        {
+            "name": "Haru",
+            "description": "Haru is a skilled monk from the nation of Elementia. He spent his entire life learning martial arts and spiritual practices that have honed him into a disciplined fighter. His lean but muscular frame gives him speed and agility, complementing his ability to channel his elemental powers. Haru is steadfast and centered, qualities that come in handy during sudden combat situations. He wears a simple, brown tunic tied with a black belt, signifying his minimalist approach to life.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-43-46"
+        },
+        {
+            "name": "Leroy Macready",
+            "description": "Leroy is a cunning thief with a quick wit and fiery temper. He grew up on the streets of overcrowded cities, honing his thievery skills along the way. Leroy prides himself on his ability to pick any lock or relieve any mark of their belongings. He commonly sports a cloak made of rat furs, an black patched beanie, and fingerless gloves with actual rugged leather on the palm. He's always on the lookout for the next big opportunity but is hard as nails when things inevitably go sour.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-43-52"
+        },
+        {
+            "name": "Artorias",
+            "description": "Artorias is a tall and muscular warrior from the nation of Stoneforge. He has a calm demeanor but he gets deadly serious when a battle ensues and will do whatever it takes to win. Known to wield giant two-handed axes imbued with arcane power as his primary weapon of choice, his combat abilities inspire friendship and trust within fellow adventurers. He wears a sturdy suit of steel armor, bearing the insignia of his Kingdom and Ironsmith's clansmith.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-43-56"
+        }
+    ],
+    "relationships": [
+        {
+            "characterAName": "Izumi",
+            "characterA_ID": "2023-06-14_23-42-41",
+            "characterBName": "Lilya",
+            "characterB_ID": "2023-06-14_23-42-50",
+            "relateAB": "Izumi and Lilya are former rivals who initially worked against each other in competing thefts. However, over time, they came to respect each other's skills and managed to pool their talents together into their own organization of skilled burglars.",
+            "relateBA": "Izumi and Lilya are former rivals who initially worked against each other in competing thefts. However, over time, they came to respect each other's skills and managed to pool their talents together into their own organization of skilled burglars.",
+            "created_time": "2023-06-14_23-43-58"
+        },
+        {
+            "characterAName": "Izumi",
+            "characterA_ID": "2023-06-14_23-42-41",
+            "characterBName": "Scarlet",
+            "characterB_ID": "2023-06-14_23-43-11",
+            "relateAB": "close_friends",
+            "relateBA": "close_friends",
+            "created_time": "2023-06-14_23-43-59"
+        },
+        {
+            "characterAName": "Izumi",
+            "characterA_ID": "2023-06-14_23-42-41",
+            "characterBName": "Anya",
+            "characterB_ID": "2023-06-14_23-43-41",
+            "relateAB": "Fellow Champions.",
+            "relateBA": "Fellow Champions.",
+            "created_time": "2023-06-14_23-43-59"
+        },
+        {
+            "characterAName": "Izumi",
+            "characterA_ID": "2023-06-14_23-42-41",
+            "characterBName": "Leroy Macready",
+            "characterB_ID": "2023-06-14_23-43-52",
+            "relateAB": "Frenemies, bound by their conflicting morals and goals.",
+            "relateBA": "Frenemies, bound by their conflicting morals and goals.",
+            "created_time": "2023-06-14_23-44-00"
+        },
+        {
+            "characterAName": "Izumi",
+            "characterA_ID": "2023-06-14_23-42-41",
+            "characterBName": "Artorias",
+            "characterB_ID": "2023-06-14_23-43-56",
+            "relateAB": "Boss and Apprentice.",
+            "relateBA": "Boss and Apprentice.",
+            "created_time": "2023-06-14_23-44-00"
+        },
+        {
+            "characterAName": "Eno",
+            "characterA_ID": "2023-06-14_23-42-45",
+            "characterBName": "Izumi",
+            "characterB_ID": "2023-06-14_23-42-41",
+            "relateAB": "Ninja-Bard duo.",
+            "relateBA": "Ninja-Bard duo.",
+            "created_time": "2023-06-14_23-44-01"
+        },
+        {
+            "characterAName": "Eno",
+            "characterA_ID": "2023-06-14_23-42-45",
+            "characterBName": "Lilya",
+            "characterB_ID": "2023-06-14_23-42-50",
+            "relateAB": "Eno and Lilya have a friendship built on mutual benefit, often teaming up to perform elaborate cons or heists that require both Eno's charisma and soothing presence, and Lilya's quick thinking and deft hand. Their ability to read each other in both social situations and battles allowed them to trust one another without reservations, making their bond strong as they traveled and participated in various adventures together.",
+            "relateBA": "Eno and Lilya have a friendship built on mutual benefit, often teaming up to perform elaborate cons or heists that require both Eno's charisma and soothing presence, and Lilya's quick thinking and deft hand. Their ability to read each other in both social situations and battles allowed them to trust one another without reservations, making their bond strong as they traveled and participated in various adventures together.",
+            "created_time": "2023-06-14_23-44-05"
+        },
+        {
+            "characterAName": "Eno",
+            "characterA_ID": "2023-06-14_23-42-45",
+            "characterBName": "Haru",
+            "characterB_ID": "2023-06-14_23-43-46",
+            "relateAB": "ComradesInArms.",
+            "relateBA": "ComradesInArms.",
+            "created_time": "2023-06-14_23-44-14"
+        },
+        {
+            "characterAName": "Eno",
+            "characterA_ID": "2023-06-14_23-42-45",
+            "characterBName": "Artorias",
+            "characterB_ID": "2023-06-14_23-43-56",
+            "relateAB": "Eno and Artorias are close friends who rely on each other's skills.",
+            "relateBA": "Eno and Artorias are close friends who rely on each other's skills.",
+            "created_time": "2023-06-14_23-44-16"
+        },
+        {
+            "characterAName": "Lilya",
+            "characterA_ID": "2023-06-14_23-42-50",
+            "characterBName": "Anya",
+            "characterB_ID": "2023-06-14_23-43-41",
+            "relateAB": "Secret Rivals: Lilya and Anya are both very competent and skilled individuals with strengths and talents that complement each other. However, due to their ambitious nature and the fact they come from different nations, they are both determined to prove to the other who is the better one. To everyone else, they appear friendly and supportive, but behind the scenes, they are fiercely competing against each other.",
+            "relateBA": "Secret Rivals: Lilya and Anya are both very competent and skilled individuals with strengths and talents that complement each other. However, due to their ambitious nature and the fact they come from different nations, they are both determined to prove to the other who is the better one. To everyone else, they appear friendly and supportive, but behind the scenes, they are fiercely competing against each other.",
+            "created_time": "2023-06-14_23-44-32"
+        },
+        {
+            "characterAName": "Lilya",
+            "characterA_ID": "2023-06-14_23-42-50",
+            "characterBName": "Haru",
+            "characterB_ID": "2023-06-14_23-43-46",
+            "relateAB": "Frequently unlikely teammates.",
+            "relateBA": "Frequently unlikely teammates.",
+            "created_time": "2023-06-14_23-44-33"
+        },
+        {
+            "characterAName": "Cassius",
+            "characterA_ID": "2023-06-14_23-43-05",
+            "characterBName": "Brynn ",
+            "characterB_ID": "2023-06-14_23-43-36",
+            "relateAB": "AdventureCompanions",
+            "relateBA": "AdventureCompanions",
+            "created_time": "2023-06-14_23-45-03"
+        },
+        {
+            "characterAName": "Cassius",
+            "characterA_ID": "2023-06-14_23-43-05",
+            "characterBName": "Anya",
+            "characterB_ID": "2023-06-14_23-43-41",
+            "relateAB": "Surprising Allies",
+            "relateBA": "Surprising Allies",
+            "created_time": "2023-06-14_23-45-04"
+        },
+        {
+            "characterAName": "Cassius",
+            "characterA_ID": "2023-06-14_23-43-05",
+            "characterBName": "Haru",
+            "characterB_ID": "2023-06-14_23-43-46",
+            "relateAB": "RivalsInMagicDueToDifferentPhilosophies",
+            "relateBA": "RivalsInMagicDueToDifferentPhilosophies",
+            "created_time": "2023-06-14_23-45-05"
+        },
+        {
+            "characterAName": "Cassius",
+            "characterA_ID": "2023-06-14_23-43-05",
+            "characterBName": "Leroy Macready",
+            "characterB_ID": "2023-06-14_23-43-52",
+            "relateAB": "rivals",
+            "relateBA": "rivals",
+            "created_time": "2023-06-14_23-45-05"
+        },
+        {
+            "characterAName": "Scarlet",
+            "characterA_ID": "2023-06-14_23-43-11",
+            "characterBName": "Cassius",
+            "characterB_ID": "2023-06-14_23-43-05",
+            "relateAB": "Unexpected Travel Companions",
+            "relateBA": "Unexpected Travel Companions",
+            "created_time": "2023-06-14_23-45-09"
+        },
+        {
+            "characterAName": "Scarlet",
+            "characterA_ID": "2023-06-14_23-43-11",
+            "characterBName": "Anya",
+            "characterB_ID": "2023-06-14_23-43-41",
+            "relateAB": "Adversaries-turned-unlikely-allies.",
+            "relateBA": "Adversaries-turned-unlikely-allies.",
+            "created_time": "2023-06-14_23-45-10"
+        },
+        {
+            "characterAName": "Scarlet",
+            "characterA_ID": "2023-06-14_23-43-11",
+            "characterBName": "Haru",
+            "characterB_ID": "2023-06-14_23-43-46",
+            "relateAB": "OpponentsInCombat",
+            "relateBA": "OpponentsInCombat",
+            "created_time": "2023-06-14_23-45-10"
+        },
+        {
+            "characterAName": "Eira",
+            "characterA_ID": "2023-06-14_23-43-18",
+            "characterBName": "Lilya",
+            "characterB_ID": "2023-06-14_23-42-50",
+            "relateAB": "Thieves who cannot be trusted.",
+            "relateBA": "Thieves who cannot be trusted.",
+            "created_time": "2023-06-14_23-45-11"
+        },
+        {
+            "characterAName": "Eira",
+            "characterA_ID": "2023-06-14_23-43-18",
+            "characterBName": "Scarlet",
+            "characterB_ID": "2023-06-14_23-43-11",
+            "relateAB": "Scarlet and Eira are traveling companions, united by their insatiable curiosity for the arcane and arcane history of Aethoria. With similar yet distinct schools of mystical knowledge, they work together harmoniously, using their abilities and translating ancient texts as they navigate their way through obscure libraries in pursuit for the most-kept secrets about the primal supernatural power at play on their multitude of quests.",
+            "relateBA": "Scarlet and Eira are traveling companions, united by their insatiable curiosity for the arcane and arcane history of Aethoria. With similar yet distinct schools of mystical knowledge, they work together harmoniously, using their abilities and translating ancient texts as they navigate their way through obscure libraries in pursuit for the most-kept secrets about the primal supernatural power at play on their multitude of quests.",
+            "created_time": "2023-06-14_23-45-15"
+        },
+        {
+            "characterAName": "Vicente",
+            "characterA_ID": "2023-06-14_23-43-23",
+            "characterBName": "Eno",
+            "characterB_ID": "2023-06-14_23-42-45",
+            "relateAB": "Best_friends",
+            "relateBA": "Best_friends",
+            "created_time": "2023-06-14_23-45-31"
+        },
+        {
+            "characterAName": "Vicente",
+            "characterA_ID": "2023-06-14_23-43-23",
+            "characterBName": "Brynn ",
+            "characterB_ID": "2023-06-14_23-43-36",
+            "relateAB": "Crafting Rivals",
+            "relateBA": "Crafting Rivals",
+            "created_time": "2023-06-14_23-45-31"
+        },
+        {
+            "characterAName": "Vistra",
+            "characterA_ID": "2023-06-14_23-43-30",
+            "characterBName": "Izumi",
+            "characterB_ID": "2023-06-14_23-42-41",
+            "relateAB": "Rival Ninjas",
+            "relateBA": "Rival Ninjas",
+            "created_time": "2023-06-14_23-45-32"
+        },
+        {
+            "characterAName": "Vistra",
+            "characterA_ID": "2023-06-14_23-43-30",
+            "characterBName": "Eno",
+            "characterB_ID": "2023-06-14_23-42-45",
+            "relateAB": "Partners in Performance.",
+            "relateBA": "Partners in Performance.",
+            "created_time": "2023-06-14_23-45-32"
+        },
+        {
+            "characterAName": "Vistra",
+            "characterA_ID": "2023-06-14_23-43-30",
+            "characterBName": "Lilya",
+            "characterB_ID": "2023-06-14_23-42-50",
+            "relateAB": "Vistra and Lilya met during a forest raid, where Lilya intended to steal valuable treasures from Vistra's treasured secret enclave. However, when Vistra noticed Lilya, she attacked her ferociously. During their combat encounter, Lilya somehow appealed to Vistra's hospitable side, who begrudgingly agreed to give her aid but only if Lilya gave Vistra her 'means of livelihood'. Lilya had no choice but to submit and has since acted as Vistra's servant and provider of any necessary unscrupulous information about the towns that Vistra might visit. relationship description: master-servant.",
+            "relateBA": "Vistra and Lilya met during a forest raid, where Lilya intended to steal valuable treasures from Vistra's treasured secret enclave. However, when Vistra noticed Lilya, she attacked her ferociously. During their combat encounter, Lilya somehow appealed to Vistra's hospitable side, who begrudgingly agreed to give her aid but only if Lilya gave Vistra her 'means of livelihood'. Lilya had no choice but to submit and has since acted as Vistra's servant and provider of any necessary unscrupulous information about the towns that Vistra might visit. relationship description: master-servant.",
+            "created_time": "2023-06-14_23-45-38"
+        },
+        {
+            "characterAName": "Brynn ",
+            "characterA_ID": "2023-06-14_23-43-36",
+            "characterBName": "Anya",
+            "characterB_ID": "2023-06-14_23-43-41",
+            "relateAB": "Shopping Buddies.",
+            "relateBA": "Shopping Buddies.",
+            "created_time": "2023-06-14_23-45-54"
+        },
+        {
+            "characterAName": "Brynn ",
+            "characterA_ID": "2023-06-14_23-43-36",
+            "characterBName": "Artorias",
+            "characterB_ID": "2023-06-14_23-43-56",
+            "relateAB": "FriendshipOfTheForge: Brynn and Artorias have formed a strong and enduring bond, bonded by the timeless craft of metalworking and their irrevocable love and admiration for each other's abilities both on and off the battlefield.",
+            "relateBA": "FriendshipOfTheForge: Brynn and Artorias have formed a strong and enduring bond, bonded by the timeless craft of metalworking and their irrevocable love and admiration for each other's abilities both on and off the battlefield.",
+            "created_time": "2023-06-14_23-45-56"
+        },
+        {
+            "characterAName": "Anya",
+            "characterA_ID": "2023-06-14_23-43-41",
+            "characterBName": "Eno",
+            "characterB_ID": "2023-06-14_23-42-45",
+            "relateAB": "Travel companions.",
+            "relateBA": "Travel companions.",
+            "created_time": "2023-06-14_23-45-57"
+        },
+        {
+            "characterAName": "Anya",
+            "characterA_ID": "2023-06-14_23-43-41",
+            "characterBName": "Vicente",
+            "characterB_ID": "2023-06-14_23-43-23",
+            "relateAB": "Adventure buddies",
+            "relateBA": "Adventure buddies",
+            "created_time": "2023-06-14_23-46-01"
+        },
+        {
+            "characterAName": "Anya",
+            "characterA_ID": "2023-06-14_23-43-41",
+            "characterBName": "Haru",
+            "characterB_ID": "2023-06-14_23-43-46",
+            "relateAB": "FriendshipAbound: After one of Anya's animal tracking missions led her to Elementia, Haru offered to guide her around and show her some hidden training spots for archers. After spending some time together, they became good friends and have since helped each other out in battles.",
+            "relateBA": "FriendshipAbound: After one of Anya's animal tracking missions led her to Elementia, Haru offered to guide her around and show her some hidden training spots for archers. After spending some time together, they became good friends and have since helped each other out in battles.",
+            "created_time": "2023-06-14_23-46-03"
+        },
+        {
+            "characterAName": "Haru",
+            "characterA_ID": "2023-06-14_23-43-46",
+            "characterBName": "Leroy Macready",
+            "characterB_ID": "2023-06-14_23-43-52",
+            "relateAB": "As it turns out, Haru and Leroy have quite an interesting history. They first met when Leroy attempted to pick Haru's pocket in a busy marketplace. However, Haru quickly caught him in the act and the two engaged in a brief scuffle. Despite their initial confrontation, they eventually sympathized with one another's tough upbringings and formed an unlikely alliance. Nowadays, Haru provides cover for Leroy's thieving operations with his exceptional martial arts skills, and in turn, Leroy always keeps his eyes and ears open for any potential leads on local criminal activity that could threaten Haru's hometown.",
+            "relateBA": "As it turns out, Haru and Leroy have quite an interesting history. They first met when Leroy attempted to pick Haru's pocket in a busy marketplace. However, Haru quickly caught him in the act and the two engaged in a brief scuffle. Despite their initial confrontation, they eventually sympathized with one another's tough upbringings and formed an unlikely alliance. Nowadays, Haru provides cover for Leroy's thieving operations with his exceptional martial arts skills, and in turn, Leroy always keeps his eyes and ears open for any potential leads on local criminal activity that could threaten Haru's hometown.",
+            "created_time": "2023-06-14_23-46-20"
+        },
+        {
+            "characterAName": "Leroy Macready",
+            "characterA_ID": "2023-06-14_23-43-52",
+            "characterBName": "Scarlet",
+            "characterB_ID": "2023-06-14_23-43-11",
+            "relateAB": "Competing adventurers. Leroy and Scarlet often find themselves traversing the same territories in search of treasure and adventure. Although they respect each other's abilities, they are both fiercely competitive, always striving to outdo one another. Despite their acrimonious rivalry, they occasionally team up when they find a mission too dangerous to complete alone.",
+            "relateBA": "Competing adventurers. Leroy and Scarlet often find themselves traversing the same territories in search of treasure and adventure. Although they respect each other's abilities, they are both fiercely competitive, always striving to outdo one another. Despite their acrimonious rivalry, they occasionally team up when they find a mission too dangerous to complete alone.",
+            "created_time": "2023-06-14_23-46-34"
+        },
+        {
+            "characterAName": "Leroy Macready",
+            "characterA_ID": "2023-06-14_23-43-52",
+            "characterBName": "Brynn ",
+            "characterB_ID": "2023-06-14_23-43-36",
+            "relateAB": "Adventure companions.",
+            "relateBA": "Adventure companions.",
+            "created_time": "2023-06-14_23-46-34"
+        },
+        {
+            "characterAName": "Artorias",
+            "characterA_ID": "2023-06-14_23-43-56",
+            "characterBName": "Lilya",
+            "characterB_ID": "2023-06-14_23-42-50",
+            "relateAB": "RivalryasArtoriasWithLilya",
+            "relateBA": "RivalryasArtoriasWithLilya",
+            "created_time": "2023-06-14_23-46-35"
+        },
+        {
+            "characterAName": "Artorias",
+            "characterA_ID": "2023-06-14_23-43-56",
+            "characterBName": "Vistra",
+            "characterB_ID": "2023-06-14_23-43-30",
+            "relateAB": "NatureConqueror",
+            "relateBA": "NatureConqueror",
+            "created_time": "2023-06-14_23-46-41"
+        },
+        {
+            "characterAName": "Artorias",
+            "characterA_ID": "2023-06-14_23-43-56",
+            "characterBName": "Haru",
+            "characterB_ID": "2023-06-14_23-43-46",
+            "relateAB": "SiblingRivals - Artorias and Haru grew up together as competitive siblings. While Haru was always more versatile and skilled in his unarmed combat techniques, Artorias spent countless hours honing his axe techniques to stand out from his younger brother. Despite the occasional sibling rivalry, they have a deep mutual respect for each other's skills and remain loyal family members.",
+            "relateBA": "SiblingRivals - Artorias and Haru grew up together as competitive siblings. While Haru was always more versatile and skilled in his unarmed combat techniques, Artorias spent countless hours honing his axe techniques to stand out from his younger brother. Despite the occasional sibling rivalry, they have a deep mutual respect for each other's skills and remain loyal family members.",
+            "created_time": "2023-06-14_23-46-44"
+        }
+    ],
+    "locations": [
+        {
+            "name": "The Sunken Forest",
+            "description": "Once a lush and vibrant forest, The Sunken Forest now lies submerged in murky waters. Be careful when navigating the twisted trees and vines, for dangerous creatures lurk beneath the surface. The rustling of leaves still echoes through the water, haunting those who dare to enter this drowned land. Stray too far from the tourist paths and find ancient temples rife with intrigue.",
+            "traits": [],
+            "inventory": [
+                {
+                    "name": "Blinding Light Beetles",
+                    "description": "These small, glowing beetles emit a bright light that can illuminate even the darkest corners of The Sunken Forest. If you catch enough of them, you can place them in a jar to use as a makeshift lantern. However, be cautious, as their bright light is also a beacon for dangerous creatures of the deep.",
+                    "traits": {},
+                    "size": 2
+                },
+                {
+                    "name": "Nervebane Arrows ",
+                    "description": " These specialized arrows are dipped in a rare poison that paralyzes the nervous system, resulting in a temporary paralysis. Perfect for taking down small to medium-sized prey or for self-defense against formidable opponents. It is highly potent and a few punctures are enough to take down creatures. However, caution is advised as the poison takes a few seconds to fully work and enthusiastic hunters may get more than they bargained for by approaching a restless victims before it takes effect.",
+                    "traits": {},
+                    "size": 2
+                }
+            ]
+        },
+        {
+            "name": "The Verdant Glade",
+            "description": "A sprawling and lush grove deep within the heart of Aethoria. The trees here are said to be hundreds of years old, towering up into the sky and providing a verdant canopy. The clear waters of a babbling brook can be heard softly trickling nearby, surrounded by fields of wildflowers in a rainbow of colors. This serene location attracts all types: from picnickers to weary travelers seeking respite from their journeys. However, whispers have begun to spread that something ancient and mysterious slumbers beneath the roots of the trees.",
+            "traits": [],
+            "inventory": [
+                {
+                    "name": "Nature's Fury ",
+                    "description": " A legendary bow, crafted by the elves of Aethoria from the branches of the oldest tree in the Verdant Glade. The bow glows with a soft green light and is said to fire arrows imbued with the fury of nature itself. Only the most skilled archers are said to be able to utilize the power of this mythical weapon.",
+                    "traits": {},
+                    "size": 2
+                }
+            ]
+        },
+        {
+            "name": "The Shimmering Caves",
+            "description": "Deep beneath the mountains, The Shimmering Caves dazzle with the flicker of a million crystal formations. The natural glow they emit bounces from every wall of the cavernous network and paints an underwater landscape across the underbelly of the cave. Subterranean freshwater streams carve through tunnels and spill out into cascading waterfalls only to continue their forever dark journey through the earth. Although rich deposits of precious gems and metals glitter underground in the caves, both adventurer and serf are cautioned of treading lightly to avoid any lasting damage on this natural wonder.\n\nThe traits are yet to be decided.\nThe inventory is yet to be filled.",
+            "traits": [],
+            "inventory": []
+        },
+        {
+            "name": "Hungry Goblin Inn & Tavern",
+            "description": "Come warm your heels by the roaring fire at the Hungry Goblin Inn & Tavern. Nestled up in the foothills of Mount Falchion, this inn serves hearty platters of food and offers a wide selection of spirits, exotic drinks, and fine wine. Travelers and locals alike gather around the tavern singing old tavern songs and telling wild tales of their extraordinary exploits. But enter its lower chambers and you'll find gambling tables and underground fight pits. Bounty hunters with wanted fliers thumb aimlessly through their pegged notice Board in search of the notorious and infamous across Halcyon.",
+            "traits": [],
+            "inventory": [
+                {
+                    "name": "Moonblade",
+                    "description": "A glistening longsword forged from the silver of the moon. Its edges are razor sharp and emit a soft, blue glow that illuminates its surroundings. The sword holds ancient magic that enhances the blade's damage when it is wielded under a moonlit sky.",
+                    "traits": {},
+                    "size": 2
+                }
+            ]
+        },
+        {
+            "name": "The Noble Swordsman's Guild ",
+            "description": " The Noble Swordsman's Guild is an exclusive guild of distinguished swordfighters from across Aethoria who come together to hone their skills. Membership is by invitation only, and the guild is known as the birthplace of legendary swordfighters. The dueling halls are covered with rich tapestries depicting brave figures swinging blades against vicious beasts.  Within the halls of the guild, one can practice their sword fighting skills or hire skilled swordsmen for dire tasks. The guild also keeps cutting-edge weapons on display, from elegantly crafted rapiers to gigantic greatswords imbued by ancient enchantments.",
+            "traits": [],
+            "inventory": [
+                {
+                    "name": "Plasma Saber",
+                    "description": " A weapon of extraordinary power consisting of an elegant hilt and a blade formed entirely of plasma. The saber appears a vibrant blue and glows brightly upon unearthing. Despite being weightless, the individuals wielding said blade must meet certain physical requirements. If not in possession of the immense athletic strength required to maneuver the incredibly complicated manipulations involved during their movements, they may sustain extensive damage by operating a Plasma Saber.",
+                    "traits": {},
+                    "size": 2
+                }
+            ]
+        }
+    ],
+    "created_time": "2023-06-14_23-42-10"
+}

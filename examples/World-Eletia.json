@@ -1,0 +1,522 @@
+{
+    "name": "Eletia",
+    "description": "Eletia is a high magic world predominantly ruled by the College of Mages, who wield immense power throughout its many kingdoms. The world is connected via magic portals that are scattered among the eight elemental planes which influence many aspects of Eletian life. Adventurers traverse Eletia's lands taking on various magical beasts and relics, and discovering the ancient ruins of fabled civilizations of old that alone controlled magic at its prime. Despite imposed safeguards and alliances between its political entities, Magic drains its untrained users, and black magic lies waiting to engulf the uncautious casters among certain realms endangering numerous infernal predicaments to result over disobeying treaties or doing the forbidden taboo of soul-scarring. Adventure leads the bold ones to discoveries both new and old remembering that loyalties must ever test and bind ere civilization falls into Chaos. Economies and trades thrive around Enchantments, Alchemy, and Reagents.",
+    "characters": [
+        {
+            "name": "Balthazar Frost",
+            "description": "Balthazar Frost is a mysterious and enigmatic wizard with a penchant for unlocking ancient and powerful magic which constantly challenges his being's boundaries. Although gifted with an adequate level of control in the field of frost magic, he is in touch with self-discovering reagents unknown to the majority of the public, which greatly raises his awareness more or less consumed by his limitless ambition. His intentions cannot be questioned since they have remained only but cobweb articulates in his articulated logjam proofs of vastly superior power urges dwarfing common world control power stratagems involving his acquiring funds of vast values to great profits. Some predict a second-over deity the quancy reaches the extreme proximity.of what a greater Power truly encompasses. Approximiter quanta.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-23-19"
+        },
+        {
+            "name": "Lorenzo Saavedra",
+            "description": "Lorenzo Saavedra is a master craftsman of enchanted weapons and armors. He runs a successful blacksmithing business in the city, where he offers a variety of custom weaponry and gear for noble warriors and wandering adventurers alike. With his exceptional skills and creativity, he's been much sought after, attracting orders from reclusive knights and luminous virtuoso knights. However, despite his success, Lorenzo remains unpretentious, harboring a compelling interest towards stories of worthy wars and quests with blades clashing prowess displayed. His only regret being Death filling too early those exciting fairytale dreamers.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-23-24"
+        },
+        {
+            "name": "Alice Thorn",
+            "description": "Alice Thorn is a young herbalist who specializes in brewing potions, remedies, and tinctures. She sells her product offerings in enchanted tiny tea sets and dishes in eclectic and specially designed dispensers. Alice ventures into the nearby forests and submerged jungles to harvest exotic ingredients that have unique healing abilities exclusively for the treatment of deep-seated scars, depression, anxiety, and PTSD which ordinary medicine fails to address. Her warm nature makes her popular among both the high nobles and the village common folks who seek her sole existence when future adversity arrives.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-23-29"
+        },
+        {
+            "name": "Charsiopia Bonecrusher",
+            "description": "Charsiopia is a fierce dwarf warrior with an unwavering loyalty to her clan. She wields a pair of giant hammers, which she reconstructed from ancient Dwarvish manuscripts. One hammer emits volcanic heat whilst the other chill from slopes kingdoms clinged to frozen challenges obstructing most that dare set off towards their lair. As Mummies and other necromancy creatures rage the undead wasteland in the process, this device is especially effective against any creatures of ice or fire nature. Charsiopia travels across the lands looking for legendary artifacts lost into darkness as the clan joins forces to reduce significant adversaries chattering about their wealth and safety as one keeps away from armed claws of the lesser minions.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-23-36"
+        },
+        {
+            "name": "Kaori Nishimura",
+            "description": "Kaori Nishimura is a skilled ninjutsu practitioner hailing from the eastern lands of Eletia. Stealthy and resourceful, she is adept at both espionage and combat, often hired by various factions in Eletia for her services. Her weapons of choice are a pair of finely crafted katana swords and explosive kunai knives. In her quest for new challenges and greater opportunities, she travels to the vast lands of Eletia seeking to expand her knowledge and craft. However, unknown to most, she harbors a deep seeded grudge against a powerful mafioso from her homeland that ruthlessly killed her family, forever scarred and mistrustful she watches cautiously every new face she meets avoiding attachment.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-23-43"
+        },
+        {
+            "name": "Evelynn Calhoon",
+            "description": "Evelynn is a rogue with a knack for thievery and subterfuge. Her slender frame naturally lends her the ability to move with grace and agility from which she capitalizes upon in her career choice. There are very few locks that can keep her out, and no secrets are unreachable when she sets her mind to something. Despite her cunning ways, she's helpless when it flashes into survival situations where she expects personal weapons epehood knows or extend the distance between her and would-be victims. Though laced with common fear, Evelynn seeks for her past and seeks closure while staying out of law enforcement caused by angered targets upon uncovering foul play.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-23-49"
+        },
+        {
+            "name": "Amelia Shade",
+            "description": "Amelia Shade is a highly skilled assassin who has honed her expertise in dark magic. Her training allows her to project an unsettling shadow-like film of herself, extending greater offense area behind enemies and extends shadows spread to move targets and herself both immrisk unanticipated direction. Her stealthily lurking often exceeds supernatural, thus enabling her to turn almost undetectable to untrained eyes and frequent circles of such aiming classes such perloir (structured elite circles that blend ritual magic and science) above the notorious populace to fulfil missions issued offering great monetary-value. Debely encrypt a codex solely for her remunerable completed tasks.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-23-55"
+        },
+        {
+            "name": "Amelia Sable",
+            "description": "Amelia is a bookish scholar, specialising in legends and myths of her realm. Born in a family of scholars, she has been training her mind since she was able to crawl, constantly seeking knowledge, lore and stories that no one else knows. Even when presented with physical challenges she is much more inclined to solve through mundane confidence that her mindsets her forias encountering proof and unfailingly picking loopholes and riddles to add in further texts. Throughout her journey across Eletia she envisions disinterring the true origins behind every tale ensuring her libraries always increased inexorably when locating primal manuscripts.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-24-02"
+        },
+        {
+            "name": "Erika Dawson",
+            "description": "Erika is a charismatic bard whose stunning performances are sought after by many throughout Eletia's towns and cities. Be it through her melodic harp, nimble-bodied dances, or poetic storytelling, she entraps audiences leaving them no choice but to feel what she sings. Her channeled empathy support allowed to identify both negative and positive feelings from others steered her life towards such performance from early ages. When growing up, Erika had an eccentric coach in art, a club which intends to make disabled folk-part of active creating industries wherever possible, specializing in haughtier polities claiming of-banging-works. It all bright inside a charming building suborned in her home realm, and the facility thankfully broadened more support-opportunities year over one empowering its souls as well.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-24-09"
+        },
+        {
+            "name": "Lucas Kingsley",
+            "description": "Lucas is a mysterious cleric who follows the path of the Goddess of Death, Nidhogg. He roams the land, seeking out those whose time has come and providing them with a peaceful and painless end. Though his intentions are pure, some view him as a harbinger of death, casting fearful glances whenever he enters a territory. However, Lucas cares little for what others think, for he knows that his calling is true and that death is a necessary part of life. Despite his solemn nature, he has a soft spot for animals and cares for a number of friendly, oversized rats that follow him wherever he goes.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-24-16"
+        },
+        {
+            "name": "Xander Ravenna",
+            "description": "Xander is a young apprentice devoted into The Pleasureseekers group mainly involved in gardening businesses. His passion in polymorph simesise enables him to cast the transformative elixirs and constructing his own critters capable of general carrywood chores and general pets. He enters Eletia as a level-headed and admirably amiable enlist\u00e9 rushing into becoming firm member of such, this lifestyle haunting him enough not to settle with those with opposite ambitions or driving motives.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-24-20"
+        },
+        {
+            "name": "Alexander Nightshade",
+            "description": "Alexander is a mysterious figure with a shadowy past, and his exploits as an independently warring champion tend his justice-bent path-leading resource state. A highly mystical person, Alexander bears a strange curse to help cover promising allies in blind spots during critical events and run into reduced pulse winds previously undisvariabley awakened threatstaking moves percipient than usual weapons could allow in proceeding intensed-extremes. While confrontationally tackled, his two blood-infused rigel-stenittes are his sole relentless talents himself in steel-purest blue fighting weapons unbeatable. Although aligned more-so with Adelan religion's myths and larger-than-life storytelling worldwide found odd humour-provoking suggestions twisted counter-proliferators deploying throughout countless distant castles creating humoristic topsy to react fully-covering stories.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-24-28"
+        },
+        {
+            "name": "Logan Greenwood",
+            "description": "Logan is a skilled archer from a long line of hunters. Raised on stories of legendary game and monstrous beasts, he became well-versed in the lore around them. He prides himself on his speed and excellent aim in ranged weaponry mainly consisting of variations of classic recurve designs adapted and specialized to better adjust well in tough niches. Knowing his relentless mind only settls upon once specific target made partnering up in monster-hunting endeavors possible outcome included. Few poachers nicknamed him Hollyweed better due to his skillful chronic experimentation mostly dating back Deep Joints Golden Street Authority era reminiscence. The risk he impersonates does moonlier treasure hunters plotting justifiable inclusion of another assets benefits be deemed.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-24-35"
+        },
+        {
+            "name": "Lydia Valorie",
+            "description": "Lydia is a rogue enchantress that specializes in the dark arts. Her twisted mind delights in rendering foes helpless; enchanted chills seeping from them stealing their vitality that makes thrice-challenge ensue. Skills drawn hidden behind enigmatic eyes that harden as transfixed removing thieves stealing close attention by drawing faraway objects used to entertain leaving valued compartments empty giving insight encouragement and sharpened attraction for El Morindo-like creation. Those that sow their distrust and doubt in her face their likely fate lie wandering upon the aisle of catacombs harboring the many antiques that dutifully tell awful histories of anxious folks lying searching for their very last salvation through the Abattoirs.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-24-42"
+        },
+        {
+            "name": "Lyra Valtor",
+            "description": "Lyra is a charismatic and cunning woman, with a charming personality and silver tongue. She uses her charisma and a mastery of illusion magic to manipulate people and get what she wants. Born to a family of influential and powerful merchants, Lyra always dreamed of expanding their business and making it the largest merchant company in Eletia. In order to do this, she uses her guile and manipulation to secure sweetheart deals and strongarm her competition. However, her ambition and greed have led her down a dark path, and she is willing to cross lines that others would never consider in order to achieve her goals. She is often distrusted and shunned by other members of high society, but always manages to find a way back into their good graces through persuasive words and grand gestures.",
+            "traits": {},
+            "inventory": [],
+            "created_time": "2023-06-14_23-24-50"
+        }
+    ],
+    "relationships": [
+        {
+            "characterAName": "Balthazar Frost",
+            "characterA_ID": "2023-06-14_23-23-19",
+            "characterBName": "Lorenzo Saavedra",
+            "characterB_ID": "2023-06-14_23-23-24",
+            "relateAB": "Magical businesspartners.",
+            "relateBA": "Magical businesspartners.",
+            "created_time": "2023-06-14_23-24-51"
+        },
+        {
+            "characterAName": "Balthazar Frost",
+            "characterA_ID": "2023-06-14_23-23-19",
+            "characterBName": "Erika Dawson",
+            "characterB_ID": "2023-06-14_23-24-09",
+            "relateAB": "Magical Attraction",
+            "relateBA": "Magical Attraction",
+            "created_time": "2023-06-14_23-24-58"
+        },
+        {
+            "characterAName": "Lorenzo Saavedra",
+            "characterA_ID": "2023-06-14_23-23-24",
+            "characterBName": "Lydia Valorie",
+            "characterB_ID": "2023-06-14_23-24-42",
+            "relateAB": "Rival enchanteursmiths vying for clients in the local market and beyond raising competition for nearly everything from who will meet new clients to who has the longest queue of unsatisfied projected orders strained moral lucidity put personal rival aside exhausted mortal ethics riding ahead except mercy for lighter honor at its zenith with social statements meant to question morality anchored here firmly where no one stepra out to be the front room champions in peoples hearts entrenched in timeless convention order forever meaning elusive and what might one expect easy?",
+            "relateBA": "Rival enchanteursmiths vying for clients in the local market and beyond raising competition for nearly everything from who will meet new clients to who has the longest queue of unsatisfied projected orders strained moral lucidity put personal rival aside exhausted mortal ethics riding ahead except mercy for lighter honor at its zenith with social statements meant to question morality anchored here firmly where no one stepra out to be the front room champions in peoples hearts entrenched in timeless convention order forever meaning elusive and what might one expect easy?",
+            "created_time": "2023-06-14_23-25-07"
+        },
+        {
+            "characterAName": "Alice Thorn",
+            "characterA_ID": "2023-06-14_23-23-29",
+            "characterBName": "Kaori Nishimura",
+            "characterB_ID": "2023-06-14_23-23-43",
+            "relateAB": "Reticent Alliance: Alice Thorn and Kaori Nishimura have an unspoken understanding between them since they respectively supply treatments for physical scars and emotional wounds; their paths cross discretely as Alice requires caution while handling herbs and Kaori needs protection when carrying out threats.",
+            "relateBA": "Reticent Alliance: Alice Thorn and Kaori Nishimura have an unspoken understanding between them since they respectively supply treatments for physical scars and emotional wounds; their paths cross discretely as Alice requires caution while handling herbs and Kaori needs protection when carrying out threats.",
+            "created_time": "2023-06-14_23-25-09"
+        },
+        {
+            "characterAName": "Alice Thorn",
+            "characterA_ID": "2023-06-14_23-23-29",
+            "characterBName": "Lydia Valorie",
+            "characterB_ID": "2023-06-14_23-24-42",
+            "relateAB": "Mutual dislike and distrust",
+            "relateBA": "Mutual dislike and distrust",
+            "created_time": "2023-06-14_23-25-13"
+        },
+        {
+            "characterAName": "Charsiopia Bonecrusher",
+            "characterA_ID": "2023-06-14_23-23-36",
+            "characterBName": "Balthazar Frost",
+            "characterB_ID": "2023-06-14_23-23-19",
+            "relateAB": "Rivals in the ongoing search for an ancient lost artifact that both believe will grant them unrivaled power and finally give them the upper hand in the war for dominance in their respective societies. Instead of cooperating, their quest has brought them in constant conflict, trying to thwart each other's advances wherever possible.",
+            "relateBA": "Rivals in the ongoing search for an ancient lost artifact that both believe will grant them unrivaled power and finally give them the upper hand in the war for dominance in their respective societies. Instead of cooperating, their quest has brought them in constant conflict, trying to thwart each other's advances wherever possible.",
+            "created_time": "2023-06-14_23-25-16"
+        },
+        {
+            "characterAName": "Charsiopia Bonecrusher",
+            "characterA_ID": "2023-06-14_23-23-36",
+            "characterBName": "Amelia Sable",
+            "characterB_ID": "2023-06-14_23-24-02",
+            "relateAB": "The two women faced off during a daring exploration to recover a ancient dwarven spell book in a forgotten graveyard; though their personalities were initially mismatched Amelia offered her expertise needed by the dwarf in exchange for help evading a multitude of obstacles formed out from nasty scavengers that gatekept are relevant ivory spools from deep within hollow at any cost causing an unbreakable bond of mutual trust formed by the time they were safely clear of pursuing sorcerers narrowly escaping the fear imbued maze, thereafter become individuals learning pattern behaviour before taking balanced measures against challenges knew could thrust them on as uncanny opponents bent upon uncovering their secrets amidst the quakes grabbing territory below them whenever running away wasn't the optimum course.",
+            "relateBA": "The two women faced off during a daring exploration to recover a ancient dwarven spell book in a forgotten graveyard; though their personalities were initially mismatched Amelia offered her expertise needed by the dwarf in exchange for help evading a multitude of obstacles formed out from nasty scavengers that gatekept are relevant ivory spools from deep within hollow at any cost causing an unbreakable bond of mutual trust formed by the time they were safely clear of pursuing sorcerers narrowly escaping the fear imbued maze, thereafter become individuals learning pattern behaviour before taking balanced measures against challenges knew could thrust them on as uncanny opponents bent upon uncovering their secrets amidst the quakes grabbing territory below them whenever running away wasn't the optimum course.",
+            "created_time": "2023-06-14_23-25-25"
+        },
+        {
+            "characterAName": "Charsiopia Bonecrusher",
+            "characterA_ID": "2023-06-14_23-23-36",
+            "characterBName": "Lucas Kingsley",
+            "characterB_ID": "2023-06-14_23-24-16",
+            "relateAB": "Rival adventurers both seeking to retrieve a powerful artifact hidden in a dangerous tomb amidst tall volcanoes. During the expedition, Charsiopia clashed with Lucas about the ethics of their methods. Although they initially distrust each other, over time their mutual respect grew, spurring them to work together and eventually leading to a friendship built on their shared understanding of the importance of moral grounding on their epic quests.",
+            "relateBA": "Rival adventurers both seeking to retrieve a powerful artifact hidden in a dangerous tomb amidst tall volcanoes. During the expedition, Charsiopia clashed with Lucas about the ethics of their methods. Although they initially distrust each other, over time their mutual respect grew, spurring them to work together and eventually leading to a friendship built on their shared understanding of the importance of moral grounding on their epic quests.",
+            "created_time": "2023-06-14_23-25-29"
+        },
+        {
+            "characterAName": "Kaori Nishimura",
+            "characterA_ID": "2023-06-14_23-23-43",
+            "characterBName": "Evelynn Calhoon",
+            "characterB_ID": "2023-06-14_23-23-49",
+            "relateAB": "Adversaries who play a ruthless cat and mouse game of revenge on each other; both constantly trying to outmaneuver the other in any sly way they can, while secretly intrigued by each other's skill and cunning.",
+            "relateBA": "Adversaries who play a ruthless cat and mouse game of revenge on each other; both constantly trying to outmaneuver the other in any sly way they can, while secretly intrigued by each other's skill and cunning.",
+            "created_time": "2023-06-14_23-25-31"
+        },
+        {
+            "characterAName": "Kaori Nishimura",
+            "characterA_ID": "2023-06-14_23-23-43",
+            "characterBName": "Amelia Shade",
+            "characterB_ID": "2023-06-14_23-23-55",
+            "relateAB": "Kaori Nishimura and Amelia Shade both are highly skilled individuals in spycraft and assassination. While their paths have not directly crossed yet, they share a mutual respect for each other's expertise from what they've heard from their respective circles. However, Kaori Nishimura cannot fully trust Amelia Shade due to the latter's reliance on dark shadow magic, which firmly goes against Kaori's sense of honor.",
+            "relateBA": "Kaori Nishimura and Amelia Shade both are highly skilled individuals in spycraft and assassination. While their paths have not directly crossed yet, they share a mutual respect for each other's expertise from what they've heard from their respective circles. However, Kaori Nishimura cannot fully trust Amelia Shade due to the latter's reliance on dark shadow magic, which firmly goes against Kaori's sense of honor.",
+            "created_time": "2023-06-14_23-25-35"
+        },
+        {
+            "characterAName": "Kaori Nishimura",
+            "characterA_ID": "2023-06-14_23-23-43",
+            "characterBName": "Alexander Nightshade",
+            "characterB_ID": "2023-06-14_23-24-28",
+            "relateAB": "Nishimura and Nightshade are fierce competitors, often crossing paths in their pursuit of justice. While they do not see eye to eye on methodology, their mutual respect for each other's skills has sparked an evolving rivalry between them.",
+            "relateBA": "Nishimura and Nightshade are fierce competitors, often crossing paths in their pursuit of justice. While they do not see eye to eye on methodology, their mutual respect for each other's skills has sparked an evolving rivalry between them.",
+            "created_time": "2023-06-14_23-25-37"
+        },
+        {
+            "characterAName": "Kaori Nishimura",
+            "characterA_ID": "2023-06-14_23-23-43",
+            "characterBName": "Lyra Valtor",
+            "characterB_ID": "2023-06-14_23-24-50",
+            "relateAB": "Rival entrepreneurs trying to outdo each other and become elite among merchants in Eletia best describe the relationship between Kaori Nishimura and Lyra Valtor. They often clash over business dealings and strategies, albeit in a seemingly friendly and cordial manner in public.",
+            "relateBA": "Rival entrepreneurs trying to outdo each other and become elite among merchants in Eletia best describe the relationship between Kaori Nishimura and Lyra Valtor. They often clash over business dealings and strategies, albeit in a seemingly friendly and cordial manner in public.",
+            "created_time": "2023-06-14_23-25-44"
+        },
+        {
+            "characterAName": "Evelynn Calhoon",
+            "characterA_ID": "2023-06-14_23-23-49",
+            "characterBName": "Amelia Sable",
+            "characterB_ID": "2023-06-14_23-24-02",
+            "relateAB": "Secret comrades who have crossed paths at various institutions researching topics with moral grey areas.",
+            "relateBA": "Secret comrades who have crossed paths at various institutions researching topics with moral grey areas.",
+            "created_time": "2023-06-14_23-25-49"
+        },
+        {
+            "characterAName": "Evelynn Calhoon",
+            "characterA_ID": "2023-06-14_23-23-49",
+            "characterBName": "Alexander Nightshade",
+            "characterB_ID": "2023-06-14_23-24-28",
+            "relateAB": "friendship blooming bond as both become affiliates of the same well-connected secretive cross-continental mercenaries' organization.",
+            "relateBA": "friendship blooming bond as both become affiliates of the same well-connected secretive cross-continental mercenaries' organization.",
+            "created_time": "2023-06-14_23-25-51"
+        },
+        {
+            "characterAName": "Evelynn Calhoon",
+            "characterA_ID": "2023-06-14_23-23-49",
+            "characterBName": "Logan Greenwood",
+            "characterB_ID": "2023-06-14_23-24-35",
+            "relateAB": "partners_in_crime",
+            "relateBA": "partners_in_crime",
+            "created_time": "2023-06-14_23-25-51"
+        },
+        {
+            "characterAName": "Amelia Shade",
+            "characterA_ID": "2023-06-14_23-23-55",
+            "characterBName": "Balthazar Frost",
+            "characterB_ID": "2023-06-14_23-23-19",
+            "relateAB": "Amelia Shade and Balthazar Frost share a professional relationship, belonging to a team of elite mercenaries who specialize in undertaking high-stake missions that undermine the very structure holding power in the land they traverse.",
+            "relateBA": "Amelia Shade and Balthazar Frost share a professional relationship, belonging to a team of elite mercenaries who specialize in undertaking high-stake missions that undermine the very structure holding power in the land they traverse.",
+            "created_time": "2023-06-14_23-25-53"
+        },
+        {
+            "characterAName": "Amelia Shade",
+            "characterA_ID": "2023-06-14_23-23-55",
+            "characterBName": "Amelia Sable",
+            "characterB_ID": "2023-06-14_23-24-02",
+            "relateAB": "Shadow and Sable.",
+            "relateBA": "Shadow and Sable.",
+            "created_time": "2023-06-14_23-25-54"
+        },
+        {
+            "characterAName": "Amelia Shade",
+            "characterA_ID": "2023-06-14_23-23-55",
+            "characterBName": "Alexander Nightshade",
+            "characterB_ID": "2023-06-14_23-24-28",
+            "relateAB": "Old comrades in arms who have delegated fugitive-assignations sought after persons met remaining all danger-side by side.",
+            "relateBA": "Old comrades in arms who have delegated fugitive-assignations sought after persons met remaining all danger-side by side.",
+            "created_time": "2023-06-14_23-25-55"
+        },
+        {
+            "characterAName": "Amelia Shade",
+            "characterA_ID": "2023-06-14_23-23-55",
+            "characterBName": "Lyra Valtor",
+            "characterB_ID": "2023-06-14_23-24-50",
+            "relateAB": "Rivals in the mercenary world, Amelia Shade and Lyra Valtor hold a deep-seated enmity towards each other. Both craving the title of the best assassin in Eletia, they have crossed paths numerous times on mission assignments and their rivalry shows no signs of simmering down anytime soon.",
+            "relateBA": "Rivals in the mercenary world, Amelia Shade and Lyra Valtor hold a deep-seated enmity towards each other. Both craving the title of the best assassin in Eletia, they have crossed paths numerous times on mission assignments and their rivalry shows no signs of simmering down anytime soon.",
+            "created_time": "2023-06-14_23-25-58"
+        },
+        {
+            "characterAName": "Amelia Sable",
+            "characterA_ID": "2023-06-14_23-24-02",
+            "characterBName": "Balthazar Frost",
+            "characterB_ID": "2023-06-14_23-23-19",
+            "relateAB": "romantic_interest",
+            "relateBA": "romantic_interest",
+            "created_time": "2023-06-14_23-25-58"
+        },
+        {
+            "characterAName": "Amelia Sable",
+            "characterA_ID": "2023-06-14_23-24-02",
+            "characterBName": "Kaori Nishimura",
+            "characterB_ID": "2023-06-14_23-23-43",
+            "relateAB": "adversaries_looking_for_same_subject_matter.",
+            "relateBA": "adversaries_looking_for_same_subject_matter.",
+            "created_time": "2023-06-14_23-25-59"
+        },
+        {
+            "characterAName": "Amelia Sable",
+            "characterA_ID": "2023-06-14_23-24-02",
+            "characterBName": "Lucas Kingsley",
+            "characterB_ID": "2023-06-14_23-24-16",
+            "relateAB": "Acquaintances who have come across each other in their independent adventures, Amelia often seeks to learn from Lucas about his belief system, especially his experiences with and impressions of the Goddess of Death. Mercurially exchanging tales of eschatology and the shadow cabole swiftly litura discuss substanta and docent engagements they often fantasise of undertaking a collaborative mystery or drawing synergy invoking potentials resulting unknowingly in development inevitably progressing together. Despite their philosophical differences they acknowledge and recognize their familiarity and treatment towards matters they encumber on each of their inner thoughts.",
+            "relateBA": "Acquaintances who have come across each other in their independent adventures, Amelia often seeks to learn from Lucas about his belief system, especially his experiences with and impressions of the Goddess of Death. Mercurially exchanging tales of eschatology and the shadow cabole swiftly litura discuss substanta and docent engagements they often fantasise of undertaking a collaborative mystery or drawing synergy invoking potentials resulting unknowingly in development inevitably progressing together. Despite their philosophical differences they acknowledge and recognize their familiarity and treatment towards matters they encumber on each of their inner thoughts.",
+            "created_time": "2023-06-14_23-26-04"
+        },
+        {
+            "characterAName": "Amelia Sable",
+            "characterA_ID": "2023-06-14_23-24-02",
+            "characterBName": "Xander Ravenna",
+            "characterB_ID": "2023-06-14_23-24-20",
+            "relateAB": "Learning Partner and Apprentice",
+            "relateBA": "Learning Partner and Apprentice",
+            "created_time": "2023-06-14_23-26-05"
+        },
+        {
+            "characterAName": "Amelia Sable",
+            "characterA_ID": "2023-06-14_23-24-02",
+            "characterBName": "Alexander Nightshade",
+            "characterB_ID": "2023-06-14_23-24-28",
+            "relateAB": "LoveHateRelationship",
+            "relateBA": "LoveHateRelationship",
+            "created_time": "2023-06-14_23-26-05"
+        },
+        {
+            "characterAName": "Amelia Sable",
+            "characterA_ID": "2023-06-14_23-24-02",
+            "characterBName": "Lydia Valorie",
+            "characterB_ID": "2023-06-14_23-24-42",
+            "relateAB": "expert-rivalry: Amelia and Lydia have been academic rivals in the field of widely differing interests with acrimony escalating parties to fiery debates over the years.",
+            "relateBA": "expert-rivalry: Amelia and Lydia have been academic rivals in the field of widely differing interests with acrimony escalating parties to fiery debates over the years.",
+            "created_time": "2023-06-14_23-26-13"
+        },
+        {
+            "characterAName": "Erika Dawson",
+            "characterA_ID": "2023-06-14_23-24-09",
+            "characterBName": "Charsiopia Bonecrusher",
+            "characterB_ID": "2023-06-14_23-23-36",
+            "relateAB": "rival musicians",
+            "relateBA": "rival musicians",
+            "created_time": "2023-06-14_23-26-14"
+        },
+        {
+            "characterAName": "Erika Dawson",
+            "characterA_ID": "2023-06-14_23-24-09",
+            "characterBName": "Amelia Sable",
+            "characterB_ID": "2023-06-14_23-24-02",
+            "relateAB": "InspiringFriends",
+            "relateBA": "InspiringFriends",
+            "created_time": "2023-06-14_23-26-14"
+        },
+        {
+            "characterAName": "Erika Dawson",
+            "characterA_ID": "2023-06-14_23-24-09",
+            "characterBName": "Alexander Nightshade",
+            "characterB_ID": "2023-06-14_23-24-28",
+            "relateAB": "SoulmateToFuncosterEnemies",
+            "relateBA": "SoulmateToFuncosterEnemies",
+            "created_time": "2023-06-14_23-26-20"
+        },
+        {
+            "characterAName": "Erika Dawson",
+            "characterA_ID": "2023-06-14_23-24-09",
+            "characterBName": "Lyra Valtor",
+            "characterB_ID": "2023-06-14_23-24-50",
+            "relateAB": "Student and teacher",
+            "relateBA": "Student and teacher",
+            "created_time": "2023-06-14_23-26-20"
+        },
+        {
+            "characterAName": "Lucas Kingsley",
+            "characterA_ID": "2023-06-14_23-24-16",
+            "characterBName": "Balthazar Frost",
+            "characterB_ID": "2023-06-14_23-23-19",
+            "relateAB": "Parallel wandering tends, Lucas and Balthazar often cross paths on their solitary travels. At first, they seemed wary of each other, Lucas raising a brow over Balthazar\u2019s dubious motives for raising obscure reagents, while Balthazar threw cautious glances towards Lucas' goddess of death worship. But they later came to recognize each other's intentions as true and honorable, cementing a tight mutual respect and frequently run mundane errands or exchange spell-craft lessons for second-stronger spells.",
+            "relateBA": "Parallel wandering tends, Lucas and Balthazar often cross paths on their solitary travels. At first, they seemed wary of each other, Lucas raising a brow over Balthazar\u2019s dubious motives for raising obscure reagents, while Balthazar threw cautious glances towards Lucas' goddess of death worship. But they later came to recognize each other's intentions as true and honorable, cementing a tight mutual respect and frequently run mundane errands or exchange spell-craft lessons for second-stronger spells.",
+            "created_time": "2023-06-14_23-26-25"
+        },
+        {
+            "characterAName": "Lucas Kingsley",
+            "characterA_ID": "2023-06-14_23-24-16",
+            "characterBName": "Erika Dawson",
+            "characterB_ID": "2023-06-14_23-24-09",
+            "relateAB": "Romantic attraction.",
+            "relateBA": "Romantic attraction.",
+            "created_time": "2023-06-14_23-26-26"
+        },
+        {
+            "characterAName": "Xander Ravenna",
+            "characterA_ID": "2023-06-14_23-24-20",
+            "characterBName": "Lorenzo Saavedra",
+            "characterB_ID": "2023-06-14_23-23-24",
+            "relateAB": "mentorstudentrelationship",
+            "relateBA": "mentorstudentrelationship",
+            "created_time": "2023-06-14_23-26-26"
+        },
+        {
+            "characterAName": "Xander Ravenna",
+            "characterA_ID": "2023-06-14_23-24-20",
+            "characterBName": "Alice Thorn",
+            "characterB_ID": "2023-06-14_23-23-29",
+            "relateAB": "Co-apprentices of The Pleasureseekers, Xander Ravenna and Alice Thorn share a mutual understanding and rely on each other for fresh herbs and magic elixirs preparations.",
+            "relateBA": "Co-apprentices of The Pleasureseekers, Xander Ravenna and Alice Thorn share a mutual understanding and rely on each other for fresh herbs and magic elixirs preparations.",
+            "created_time": "2023-06-14_23-26-28"
+        },
+        {
+            "characterAName": "Xander Ravenna",
+            "characterA_ID": "2023-06-14_23-24-20",
+            "characterBName": "Evelynn Calhoon",
+            "characterB_ID": "2023-06-14_23-23-49",
+            "relateAB": "loyal_customer",
+            "relateBA": "loyal_customer",
+            "created_time": "2023-06-14_23-26-29"
+        },
+        {
+            "characterAName": "Alexander Nightshade",
+            "characterA_ID": "2023-06-14_23-24-28",
+            "characterBName": "Xander Ravenna",
+            "characterB_ID": "2023-06-14_23-24-20",
+            "relateAB": "DarkMystic and Gardener.",
+            "relateBA": "DarkMystic and Gardener.",
+            "created_time": "2023-06-14_23-26-34"
+        },
+        {
+            "characterAName": "Lydia Valorie",
+            "characterA_ID": "2023-06-14_23-24-42",
+            "characterBName": "Charsiopia Bonecrusher",
+            "characterB_ID": "2023-06-14_23-23-36",
+            "relateAB": "Object of Scrapping",
+            "relateBA": "Object of Scrapping",
+            "created_time": "2023-06-14_23-26-35"
+        },
+        {
+            "characterAName": "Lydia Valorie",
+            "characterA_ID": "2023-06-14_23-24-42",
+            "characterBName": "Lyra Valtor",
+            "characterB_ID": "2023-06-14_23-24-50",
+            "relateAB": "romantic entanglement",
+            "relateBA": "romantic entanglement",
+            "created_time": "2023-06-14_23-26-35"
+        },
+        {
+            "characterAName": "Lyra Valtor",
+            "characterA_ID": "2023-06-14_23-24-50",
+            "characterBName": "Xander Ravenna",
+            "characterB_ID": "2023-06-14_23-24-20",
+            "relateAB": "Charming manipulation.",
+            "relateBA": "Charming manipulation.",
+            "created_time": "2023-06-14_23-26-36"
+        }
+    ],
+    "locations": [
+        {
+            "name": "Flamingo Island",
+            "description": "A small tropical island covered in pink flamingos. There are crystal clear waters perfect for swimming and white sandy beaches ideal for relaxation. On the island is a small, luxurious resort where visitors can stay in luxury villas and go on guided tours to see the flamingos and surrounding attractions such as hidden caves and small lagoons. The island is reachable by boat from the nearby town.",
+            "traits": [],
+            "inventory": []
+        },
+        {
+            "name": "Crystal Cathedral",
+            "description": "A magnificent and awe-inspiring cathedral built entirely of transparent crystal. The sunlight that filters through the crystal windows creates stunning and colorful patterns on the pale stone floors. The cathedral boasts towering spires and intricately carved pillars that seem to glow with an inner light. However, it is rumored that the cathedral is haunted by the spirits of the crystal miners who lost their lives in the quarry where the crystals were excavated.",
+            "traits": [],
+            "inventory": [
+                {
+                    "name": "Purewater Chalice",
+                    "description": "An intricate silver chalice that sparkles in the sunlight. When filled with water, its intricate carvings seem to animate, depicting the flow of water from a mountaintop to its final destination in the sea. Mysteriously, water held within the chalice never seems to spoil or stagnate, and those who drink from it report feeling reinvigorated.",
+                    "traits": {},
+                    "size": 2
+                }
+            ]
+        },
+        {
+            "name": "Blissful Gardens",
+            "description": "A sprawling garden filled with vibrant and exotic flowers and plants. It features small streams running through it, leading visitors to small ponds with koi fish. Large and expanding sycamore trees shadow visitors giving off life to curious monkeys playfully hopping from branch to another. The aroma, music, and sights that encapsulate the garden ward off any tension and provide sanctuary to even the restless hearts that reach its fervor.",
+            "traits": [],
+            "inventory": [
+                {
+                    "name": "Bamboo Flute",
+                    "description": "A slender wooden flute crafted from the hollow branch of sturdy bamboo. Its gentle yet soulful melody can calm even the most troubled mind, inviting listeners to embrace the tranquility of Blissful Gardens. The craftsmanship of the bamboo flute is unrivaled, making it a cherished possession of whoever owns it.",
+                    "traits": {},
+                    "size": 2
+                }
+            ]
+        },
+        {
+            "name": "Towering Mountains",
+            "description": "A range of sharply peaky mountains stretching miles out, covered in frigid storms intrventing mountaineer's quest to reach the hidden peaks. Yet legends suggest an entirely different world and mythology exist beyond those treacherous treks.",
+            "traits": [],
+            "inventory": [
+                {
+                    "name": "Snowblade",
+                    "description": "A sharp, curved sword made of a durable metal with jagged ice edges. Suitable for combating foes that dwell in the harsh cold, or simply aiding one's climb through icy slopes.",
+                    "traits": {},
+                    "size": 2
+                },
+                {
+                    "name": "Frozen Hearths",
+                    "description": "A pair of enchanted stones that when ignited emanates a warm, invigorating heat that can thaw anything within a small radius. It's commonly used as a heat source for traveller's campsites or to rapidly dry cold and damp attire during long expeditions.",
+                    "traits": {},
+                    "size": 2
+                }
+            ]
+        },
+        {
+            "name": "Illora Ridge",
+            "description": "A remote plateau located at the northernmost tip of Eletia. The Ridge is primarily accessible by treacherous hiking trails obscured within dense treelines. Suffering from some of the harshest Altitude sickness on Eletia, and frigid climate stopping expeditions dead on their tracks; the mountaineers have the opportunity to watch hundreds of aerial and aqua fantastamals flying back and forth peeking out of bright colorful flora the illora region harbors. At night peculiar phenomena unfold, lights encapsulate the mountaintops before an almost unhearable hum might vibrate under your bear feet.\"",
+            "traits": [],
+            "inventory": [
+                {
+                    "name": "Seaborne Compass",
+                    "description": "This specially crafted compass doesn't only point the north but also has the ability to show the nearest bodies of water, as the enchantment inlaid in the needle point towards freshwater and saline profiles alike. A godsend for pirates, fishermen, and seafarers who require accurate directions for adventure or business. The intricate design produces occasional tapping noises when close to metallic surfaces.\"",
+                    "traits": {},
+                    "size": 2
+                }
+            ]
+        }
+    ],
+    "created_time": "2023-06-14_23-22-52"
+}
