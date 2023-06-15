@@ -1,7 +1,7 @@
 # Electric-Referee
 **A tool to generate campaigns for fantasy tabletop roleplaying games.**
 
-## Automatically generate:
+## Automatically Generate
 - World
 - Location
 - Character
@@ -17,3 +17,8 @@
 - Relationships between characters
 ## Item Features
 - Name and description
+
+## Planned Features
+- Quest generation
+- Item size determination
+- Trait generation
